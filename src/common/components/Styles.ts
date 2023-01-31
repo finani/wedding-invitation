@@ -15,9 +15,10 @@ export const MainInfoGridList = styled.div`
   margin: 0 15%;
   padding: 20px;
 
-  ${media.medium} {
+  ${media.small} {
     grid-template-columns: repeat(1, minmax(100px, 1fr));
 
+    margin: 0;
     padding: 20px;
   }
 `;

@@ -11,21 +11,21 @@ function MainView() {
           <CS.MainDetails>
             <CS.Title>
               <br></br>
-              마시고 싶은 그 와인,
+              인환, 채윤
               <br></br>
               <br></br>
-              어디서 팔까?
+              결혼식
             </CS.Title>
           </CS.MainDetails>
           <S.MainImg
-            src="/images/WallpaperDog-5518832.jpg"
-            alt="https://wallpaper.dog/download-wallpaper/5518832_wine-wallpapers"
+            src="/images/studio/SYD_0602.jpg"
+            alt="Love, love, love"
           />
         </CS.MainInfoGridList>
       </CS.OddContainer>
       <CS.EvenContainer>
         <CS.Title>
-          와인샵 in <Link href="/">MaShow</Link>
+          <Link href="/">우리 결혼!</Link>
         </CS.Title>
       </CS.EvenContainer>
     </>

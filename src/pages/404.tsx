@@ -9,7 +9,7 @@ function Custom404() {
   return (
     <>
       <S.MainImg
-        src="/images/IMG_0633.jpg"
+        src="/images/studio/SYD_0140.jpg"
         alt="Page Not Found"
         onClick={() => router.push('/')}
       />
