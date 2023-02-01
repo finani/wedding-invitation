@@ -23,6 +23,10 @@ export const MainInfoGridList = styled.div`
   }
 `;
 
+export const MainImg = styled.img`
+  width: 100%;
+`;
+
 export const MainPhoto = styled.div`
   width: 100%;
 `;
