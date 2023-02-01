@@ -37,8 +37,6 @@ export const MainDetails = styled.div`
 
 export const MainInfo = styled.div`
   margin: 0 15%;
-
-  color: ${color.text};
 `;
 
 export const OddContainer = styled.div`
