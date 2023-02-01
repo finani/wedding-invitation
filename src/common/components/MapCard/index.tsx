@@ -18,7 +18,7 @@ function MapCard() {
     const marker = new naver.maps.Marker({
       position: new naver.maps.LatLng(lat, lon),
       map: mapRef.current,
-      animation: naver.maps.Animation.BOUNCE
+      animation: naver.maps.Animation.BOUNCE,
     });
 
     const contentHtml = [
@@ -56,7 +56,8 @@ function MapCard() {
         <S.MapCardTitle>오시는 길</S.MapCardTitle>
         <S.MapDiv id="map" />
         <S.MapCardText>
-          - 지하철 및 셔틀버스 이용시<br></br>
+          [예식장 주소] 서울 구로구 디지털로26길 38<br></br>
+          [전화번호] 02-432-9000<br></br>- 지하철 및 셔틀버스 이용시<br></br>
           1호선&7호선 가산디지털단지역 공용4번 출구 - 출구 나와서 국민은행 앞
           <br></br>* 1호선 1번 출구로 나오는 경우 - 나온 방향으로 120M 직진 후,
           4번 출구 앞 횡단보도 이용하여 건너서 탑승<br></br>
