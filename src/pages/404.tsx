@@ -6,10 +6,7 @@ function Custom404() {
   return (
     <>
       <Link href="/">
-        <CS.MainImg
-          src="/images/studio/SYD_0140.jpg"
-          alt="Page Not Found"
-        />
+        <CS.MainImg src="/images/studio/SYD_0140.jpg" alt="Page Not Found" />
       </Link>
       <CS.MainInfo>&nbsp;</CS.MainInfo>
     </>

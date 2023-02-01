@@ -1,7 +1,10 @@
 import * as CS from 'src/common/components/Styles';
 import * as S from './Styles';
 
-function Contact() {
+interface ContactProps {
+  showAccount: Boolean;
+}
+function Contact({ showAccount }: ContactProps) {
   return (
     <CS.EvenContainer>
       <CS.MainInfoGridList>
@@ -11,6 +14,7 @@ function Contact() {
             Contact
             <br></br>
           </CS.Title>
+          {showAccount && <CS.Title>showAccount</CS.Title>}
         </CS.MainDetails>
         <CS.MainImg src="/images/studio/SYD_0056.jpg" alt="Love, love, love" />
       </CS.MainInfoGridList>
