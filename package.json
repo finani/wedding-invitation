@@ -24,6 +24,7 @@
     "styled-reset": "^4.4.2"
   },
   "devDependencies": {
+    "@types/navermaps": "^3.0.17",
     "@types/node": "18.0.3",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
