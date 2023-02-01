@@ -6,7 +6,8 @@ function Footer() {
     <S.FooterContainer>
       <CS.MainInfo>
         <S.FooterBody>
-          Created by <a href="https://github.com/finani">Inhwan</a> and <a href="https://github.com/kcyoon689">Chaeyoon</a>.
+          Created by <a href="https://github.com/finani">Inhwan</a> and{' '}
+          <a href="https://github.com/kcyoon689">Chaeyoon</a>.
         </S.FooterBody>
       </CS.MainInfo>
     </S.FooterContainer>

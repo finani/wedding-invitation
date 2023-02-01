@@ -16,7 +16,7 @@ function Contact({ showAccount }: ContactProps) {
           </CS.Title>
           {showAccount && <CS.Title>showAccount</CS.Title>}
         </CS.MainDetails>
-        <CS.MainImg src="/images/studio/SYD_0056.jpg" alt="Love, love, love" />
+        <CS.MainImg src="/images/mobile/SYD_0056.jpg" alt="Love, love, love" />
       </CS.MainInfoGridList>
     </CS.EvenContainer>
   );

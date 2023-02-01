@@ -22,7 +22,7 @@ function Home() {
     <>
       <MainCard />
       <Invitation />
-      <Contact showAccount={ showAccount } />
+      <Contact showAccount={showAccount} />
       <Gallery />
       <Calendar />
       <MapCard />
