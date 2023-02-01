@@ -1,4 +1,4 @@
-export { default as Calendar } from './Calendar';
+export { default as CalendarCard } from './CalendarCard';
 export { default as Contact } from './Contact';
 export { default as Footer } from './Footer';
 export { default as Gallery } from './Gallery';

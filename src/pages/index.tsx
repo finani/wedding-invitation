@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import {
-  Calendar,
+  CalendarCard,
   Contact,
   Footer,
   Gallery,
@@ -24,7 +24,7 @@ function Home() {
       <Invitation />
       <Contact showAccount={showAccount} />
       <Gallery />
-      <Calendar />
+      <CalendarCard />
       <MapCard />
       <GuestBook />
       <Footer />

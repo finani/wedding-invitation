@@ -3,7 +3,7 @@ import * as S from './Styles';
 
 function Gallery() {
   return (
-    <CS.EvenContainer>
+    <CS.OddContainer>
       <CS.MainInfoGridList>
         <CS.MainDetails>
           <CS.Title>
@@ -14,7 +14,7 @@ function Gallery() {
         </CS.MainDetails>
         <CS.MainImg src="/images/mobile/SYD_0140.jpg" alt="Love, love, love" />
       </CS.MainInfoGridList>
-    </CS.EvenContainer>
+    </CS.OddContainer>
   );
 }
 
