@@ -35,7 +35,7 @@ export const InvitationTable = styled.table`
 `;
 
 export const InvitationText = styled.h4`
-  margin: 2em;
+  margin: 2em 1em 2em 1em;
 
   font-size: 1.5vw;
   ${media.medium} {
