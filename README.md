@@ -2,6 +2,20 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Setting Environment
+
+Create a .env.local file with the following information.
+
+```typescript
+FIREBASE_API_KEY = '...';
+FIREBASE_AUTH_DOMAIN = '...';
+FIREBASE_STORAGE_BUCKET = '...';
+FIREBASE_MESSAGING_SENDER_ID = '...';
+FIREBASE_APP_ID = '...';
+FIREBASE_MEASUREMENT_ID = '...';
+NAVER_MAP_KEY = '...';
+```
+
 ## Getting Started
 
 First, run the development server:

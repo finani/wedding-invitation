@@ -4,6 +4,7 @@ import * as S from './Styles';
 interface ContactProps {
   showAccount: Boolean;
 }
+
 function Contact({ showAccount }: ContactProps) {
   return (
     <CS.EvenContainer>

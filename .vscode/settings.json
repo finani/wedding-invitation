@@ -36,5 +36,6 @@
         }
       }
     ]
-  }
+  },
+  "cSpell.words": ["firestore"]
 }
