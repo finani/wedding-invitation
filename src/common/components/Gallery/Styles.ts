@@ -15,6 +15,6 @@ export const GalleryTitle = styled.h1`
 `;
 
 export const GalleryBody = styled.div`
-  max-width: 45vh;
+  max-width: 90%;
   margin: auto;
 `;
