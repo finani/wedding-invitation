@@ -78,7 +78,7 @@ function GuestBook() {
               <S.TextArea
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                placeholder="내용"
+                placeholder="축하 메시지를 남겨주세요!"
                 required
               />
               <br></br>

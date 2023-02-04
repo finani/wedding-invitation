@@ -5,7 +5,7 @@ export class WeddingPost {
     this.id = id;
     this.name = data.name;
     this.message = data.message;
-    this.date = new Date(data.timestamp * 1000);
+    this.date = new Date(data.timestamp);
   }
   id: string;
   name: string;
