@@ -19,8 +19,11 @@ function MapCard() {
       keyboardShortcuts: false,
       pinchZoom: false,
       scrollWheel: false,
-      zoom: 14,
+      zoom: 13,
       zoomControl: true,
+      zoomControlOptions: {
+        position: naver.maps.Position.LEFT_CENTER,
+      },
       zoomOrigin: center,
     });
 
@@ -46,8 +49,8 @@ function MapCard() {
     const mapElementHeight =
       mapElement?.offsetHeight === undefined ? 0 : mapElement.offsetHeight;
 
-    const offsetX = mapElementWidth * 0.25;
-    const offsetY = mapElementHeight * -0.2;
+    const offsetX = mapElementWidth * 0.2;
+    const offsetY = mapElementHeight * -0.1;
     const wineShopInfoWindow = new naver.maps.InfoWindow({
       content: contentHtml,
       pixelOffset: new naver.maps.Point(offsetX, offsetY),
