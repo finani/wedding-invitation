@@ -8,7 +8,7 @@ function Custom404() {
       <Link href="/">
         <CS.MainImg src="/images/mobile/SYD_0140.jpg" alt="Page Not Found" />
       </Link>
-      <CS.MainInfo> </CS.MainInfo>
+      <CS.CommonBody> </CS.CommonBody>
     </>
   );
 }

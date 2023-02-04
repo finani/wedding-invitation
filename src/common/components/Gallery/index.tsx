@@ -2,7 +2,6 @@ import ReactImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
 import * as CS from 'src/common/components/Styles';
-import * as S from './Styles';
 
 function Gallery() {
   const images = [
@@ -73,21 +72,19 @@ function Gallery() {
   ];
 
   return (
-    <CS.OddContainer>
-      <CS.MainInfo>
-        <S.GalleryTitle>Gallery</S.GalleryTitle>
-        <S.GalleryBody>
-          <ReactImageGallery
-            items={images}
-            lazyLoad={true}
-            thumbnailPosition="right"
-            showIndex={true}
-            autoPlay={true}
-            slideInterval={4000}
-          />
-        </S.GalleryBody>
-      </CS.MainInfo>
-    </CS.OddContainer>
+    <CS.CommonContainer>
+      <CS.CommonBody>
+        <CS.CommonTitle>Gallery</CS.CommonTitle>
+        <ReactImageGallery
+          items={images}
+          lazyLoad={true}
+          thumbnailPosition="right"
+          showIndex={true}
+          autoPlay={true}
+          slideInterval={4000}
+        />
+      </CS.CommonBody>
+    </CS.CommonContainer>
   );
 }
 

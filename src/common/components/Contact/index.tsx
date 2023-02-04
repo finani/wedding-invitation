@@ -6,9 +6,9 @@ import * as S from './Styles';
 
 function Contact() {
   return (
-    <S.ContactContainer>
-      <CS.MainInfo>
-        <S.ContactTable>
+    <CS.CommonContainer>
+      <CS.CommonBody>
+        <CS.CommonTable>
           <tbody>
             <tr>
               <td>신랑에게 연락하기</td>
@@ -45,9 +45,9 @@ function Contact() {
               </td>
             </tr>
           </tbody>
-        </S.ContactTable>
-        <S.ContactTitle>혼주에게 연락하기</S.ContactTitle>
-        <S.ContactTable>
+        </CS.CommonTable>
+        <CS.CommonTitle>혼주에게 연락하기</CS.CommonTitle>
+        <CS.CommonTable>
           <tbody>
             <tr>
               <td>신랑측 혼주</td>
@@ -114,9 +114,9 @@ function Contact() {
               </td>
             </tr>
           </tbody>
-        </S.ContactTable>
-      </CS.MainInfo>
-    </S.ContactContainer>
+        </CS.CommonTable>
+      </CS.CommonBody>
+    </CS.CommonContainer>
   );
 }
 

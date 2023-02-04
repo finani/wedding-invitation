@@ -60,40 +60,40 @@ function GuestBook() {
   };
 
   return (
-    <CS.EvenContainer>
-      <CS.MainInfo>
-        <S.GuestBookTitle>GuestBook</S.GuestBookTitle>
-        <S.GuestBookPost>
-          <form>
-            <S.Input
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              type="text"
-              placeholder="이름"
-              required
-            />
-            <br></br>
-            <br></br>
-            <S.TextArea
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-              placeholder="내용"
-              required
-            />
-            <br></br>
-            <br></br>
-            <S.Button onClick={sendPost} type="submit">
-              등록하기
-            </S.Button>
-          </form>
-        </S.GuestBookPost>
-        <S.GuestBookBody>
+    <CS.CommonContainer>
+      <CS.CommonBody>
+        <CS.CommonTitle>GuestBook</CS.CommonTitle>
+        <CS.CommonBody>
+          <S.GuestBookPost>
+            <form>
+              <S.Input
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                type="text"
+                placeholder="이름"
+                required
+              />
+              <br></br>
+              <br></br>
+              <S.TextArea
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                placeholder="내용"
+                required
+              />
+              <br></br>
+              <br></br>
+              <S.Button onClick={sendPost} type="submit">
+                등록하기
+              </S.Button>
+            </form>
+          </S.GuestBookPost>
           {weddingPosts.map(({ id, name, message, date }) => (
             <Post key={id} name={name} message={message} date={date} />
           ))}
-        </S.GuestBookBody>
-      </CS.MainInfo>
-    </CS.EvenContainer>
+        </CS.CommonBody>
+      </CS.CommonBody>
+    </CS.CommonContainer>
   );
 }
 

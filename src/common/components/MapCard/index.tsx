@@ -72,13 +72,15 @@ function MapCard() {
   }, []);
 
   return (
-    <S.MapCardContainer>
-      <CS.MainInfo>
-        <S.MapCardTitle>오시는 길</S.MapCardTitle>
+    <CS.CommonContainer>
+      <CS.CommonBody>
+        <CS.CommonTitle>오시는 길</CS.CommonTitle>
         <S.MapDiv id="map" />
-        <S.MapCardText>
+        <CS.CommonText>
+          <br></br>
           [예식장 주소] 서울 구로구 디지털로26길 38<br></br>
-          [전화번호] 02-432-9000<br></br>- 지하철 및 셔틀버스 이용시<br></br>
+          [전화번호] 02-432-9000<br></br>
+          <br></br>- 지하철 및 셔틀버스 이용시<br></br>
           1호선&7호선 가산디지털단지역 공용4번 출구 - 출구 나와서 국민은행 앞
           <br></br>* 1호선 1번 출구로 나오는 경우 - 나온 방향으로 120M 직진 후,
           4번 출구 앞 횡단보도 이용하여 건너서 탑승<br></br>
@@ -94,9 +96,9 @@ function MapCard() {
           동시 1400대 주차 가능 / 2시간 무료주차 / 10분당 700원<br></br>
           네비게이션 검색 주소: 서울시 구로구 디지털로 26길 38 (지타워몰, 지타워
           주차장) / 디지털로 28길 도로 이용 진입<br></br>
-        </S.MapCardText>
-      </CS.MainInfo>
-    </S.MapCardContainer>
+        </CS.CommonText>
+      </CS.CommonBody>
+    </CS.CommonContainer>
   );
 }
 

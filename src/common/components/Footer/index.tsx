@@ -3,8 +3,8 @@ import * as S from './Styles';
 
 function Footer() {
   return (
-    <S.FooterContainer>
-      <CS.MainInfo>
+    <CS.CommonContainer>
+      <CS.CommonBody>
         <S.FooterBody>
           Created by{' '}
           <a
@@ -24,8 +24,8 @@ function Footer() {
           </a>
           .
         </S.FooterBody>
-      </CS.MainInfo>
-    </S.FooterContainer>
+      </CS.CommonBody>
+    </CS.CommonContainer>
   );
 }
 

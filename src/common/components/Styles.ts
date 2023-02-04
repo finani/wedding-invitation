@@ -1,29 +1,57 @@
 import styled from 'styled-components';
 import { color, media } from 'src/common/utils/styles';
 
-export const OddContainer = styled.div`
-  padding: 40px 0px 20px;
-
-  background-color: ${color.white};
+export const CommonContainer = styled.div`
+  max-width: 450px;
+  margin: auto;
 `;
 
-export const EvenContainer = styled.div`
-  padding: 40px 0px 20px;
-
-  background-color: ${color.gray100};
+export const CommonBody = styled.div`
+  max-width: 90%;
+  margin: auto;
 `;
 
-export const MainInfo = styled.div`
-  margin: 0 15%;
-  ${media.large} {
-    margin: 0 10%;
-  }
-  ${media.medium} {
-    margin: 0 5%;
-  }
-  ${media.xSmall} {
-    margin: 0;
-  }
+export const CommonTitle = styled.h1`
+  margin: 1rem;
+
+  font-size: 1.7rem;
+  text-align: center;
+`;
+
+export const CommonSubTitle = styled.h4`
+  margin: 1rem;
+
+  font-size: 0.8rem;
+  text-align: center;
+
+  line-height: 1.5rem;
+`;
+
+export const CommonText = styled.text`
+  margin: 1rem;
+
+  font-size: 0.8rem;
+  text-align: center;
+
+  line-height: 1.5rem;
+`;
+
+export const CommonTable = styled.table`
+  margin: auto;
+
+  font-size: 1.1rem;
+  text-align: center;
+
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+`;
+
+export const HorizontalBar = styled.hr`
+  width: 90%;
+  height: 0.5vw;
+  border: none;
+
+  background-color: ${color.gray900};
 `;
 
 export const MainInfoGridList = styled.div`
@@ -42,28 +70,6 @@ export const MainInfoGridList = styled.div`
   }
 `;
 
-export const Title = styled.h1`
-  margin: 0 15%;
-
-  color: ${color.gray900};
-`;
-
-export const MainDetails = styled.div`
-  color: ${color.gray900};
-`;
-
 export const MainImg = styled.img`
   width: 100%;
-`;
-
-export const MainPhoto = styled.div`
-  width: 100%;
-`;
-
-export const HorizontalBar = styled.hr`
-  width: 90%;
-  height: 0.5vw;
-  border: none;
-
-  background-color: ${color.gray900};
 `;

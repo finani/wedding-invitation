@@ -1,13 +1,12 @@
 import * as CS from 'src/common/components/Styles';
-import * as S from './Styles';
 
 function Invitation() {
   return (
-    <S.InvitationContainer>
-      <CS.MainInfo>
+    <CS.CommonContainer>
+      <CS.CommonBody>
         <CS.HorizontalBar />
-        <S.InvitationTitle>이제 서로, 평생 함께</S.InvitationTitle>
-        <S.InvitationText>
+        <CS.CommonTitle>이제 서로, 평생 함께</CS.CommonTitle>
+        <CS.CommonSubTitle>
           작은 인연에서 시작된<br></br>
           저희 두 사람의 소중한 사랑이<br></br>
           아름다운 결실이 되어,<br></br>
@@ -20,8 +19,8 @@ function Invitation() {
           <br></br>
           귀한 걸음으로 저희 두 사람의 앞날을<br></br>
           축복해 주시면 감사하겠습니다.
-        </S.InvitationText>
-        <S.InvitationTable>
+        </CS.CommonSubTitle>
+        <CS.CommonTable>
           <tbody>
             <tr>
               <td>위희량, 조단자의</td>
@@ -34,10 +33,10 @@ function Invitation() {
               <td>김채윤</td>
             </tr>
           </tbody>
-        </S.InvitationTable>
-      </CS.MainInfo>
+        </CS.CommonTable>
+      </CS.CommonBody>
       <CS.MainImg src="/images/studio/SYD_0487.jpg" alt="Love, love, love" />
-    </S.InvitationContainer>
+    </CS.CommonContainer>
   );
 }
 
