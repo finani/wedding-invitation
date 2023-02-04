@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
-export const MapDiv = styled.div`
+export const MapContainer = styled.div`
   min-height: 70vh;
 `;

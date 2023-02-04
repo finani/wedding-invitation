@@ -75,7 +75,7 @@ function MapCard() {
     <CS.CommonContainer>
       <CS.CommonBody>
         <CS.CommonTitle>오시는 길</CS.CommonTitle>
-        <S.MapDiv id="map" />
+        <S.MapContainer id="map" />
         <CS.CommonText>
           <br></br>
           [예식장 주소] 서울 구로구 디지털로26길 38<br></br>

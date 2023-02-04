@@ -2,7 +2,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import SmsIcon from '@mui/icons-material/Sms';
 
 import * as CS from 'src/common/components/Styles';
-import * as S from './Styles';
+import CircleIcon from './CircleIcon';
 
 function Contact() {
   return (
@@ -13,35 +13,19 @@ function Contact() {
             <tr>
               <td>신랑에게 연락하기</td>
               <td>
-                <S.ContactGroomCircle>
-                  <S.ContactIcon>
-                    <PhoneIcon fontSize="medium" style={{ color: 'white' }} />
-                  </S.ContactIcon>
-                </S.ContactGroomCircle>
+                <CircleIcon Icon={PhoneIcon} color="#70b5f9" />
               </td>
               <td>
-                <S.ContactGroomCircle>
-                  <S.ContactIcon>
-                    <SmsIcon fontSize="medium" style={{ color: 'white' }} />
-                  </S.ContactIcon>
-                </S.ContactGroomCircle>
+                <CircleIcon Icon={SmsIcon} color="#70b5f9" />
               </td>
             </tr>
             <tr>
               <td>신부에게 연락하기</td>
               <td>
-                <S.ContactBrideCircle>
-                  <S.ContactIcon>
-                    <PhoneIcon fontSize="medium" style={{ color: 'white' }} />
-                  </S.ContactIcon>
-                </S.ContactBrideCircle>
+                <CircleIcon Icon={PhoneIcon} color="#e7a33e" />
               </td>
               <td>
-                <S.ContactBrideCircle>
-                  <S.ContactIcon>
-                    <SmsIcon fontSize="medium" style={{ color: 'white' }} />
-                  </S.ContactIcon>
-                </S.ContactBrideCircle>
+                <CircleIcon Icon={SmsIcon} color="#e7a33e" />
               </td>
             </tr>
           </tbody>
@@ -59,28 +43,12 @@ function Contact() {
             </tr>
             <tr>
               <td>
-                <S.ContactGroomCircle>
-                  <S.ContactIcon>
-                    <PhoneIcon fontSize="medium" style={{ color: 'white' }} />
-                  </S.ContactIcon>
-                </S.ContactGroomCircle>
-                <S.ContactGroomCircle>
-                  <S.ContactIcon>
-                    <SmsIcon fontSize="medium" style={{ color: 'white' }} />
-                  </S.ContactIcon>
-                </S.ContactGroomCircle>
+                <CircleIcon Icon={PhoneIcon} color="#70b5f9" />
+                <CircleIcon Icon={SmsIcon} color="#70b5f9" />
               </td>
               <td>
-                <S.ContactBrideCircle>
-                  <S.ContactIcon>
-                    <PhoneIcon fontSize="medium" style={{ color: 'white' }} />
-                  </S.ContactIcon>
-                </S.ContactBrideCircle>
-                <S.ContactBrideCircle>
-                  <S.ContactIcon>
-                    <SmsIcon fontSize="medium" style={{ color: 'white' }} />
-                  </S.ContactIcon>
-                </S.ContactBrideCircle>
+                <CircleIcon Icon={PhoneIcon} color="#e7a33e" />
+                <CircleIcon Icon={SmsIcon} color="#e7a33e" />
               </td>
             </tr>
             <tr>
@@ -89,28 +57,12 @@ function Contact() {
             </tr>
             <tr>
               <td>
-                <S.ContactGroomCircle>
-                  <S.ContactIcon>
-                    <PhoneIcon fontSize="medium" style={{ color: 'white' }} />
-                  </S.ContactIcon>
-                </S.ContactGroomCircle>
-                <S.ContactGroomCircle>
-                  <S.ContactIcon>
-                    <SmsIcon fontSize="medium" style={{ color: 'white' }} />
-                  </S.ContactIcon>
-                </S.ContactGroomCircle>
+                <CircleIcon Icon={PhoneIcon} color="#70b5f9" />
+                <CircleIcon Icon={SmsIcon} color="#70b5f9" />
               </td>
               <td>
-                <S.ContactBrideCircle>
-                  <S.ContactIcon>
-                    <PhoneIcon fontSize="medium" style={{ color: 'white' }} />
-                  </S.ContactIcon>
-                </S.ContactBrideCircle>
-                <S.ContactBrideCircle>
-                  <S.ContactIcon>
-                    <SmsIcon fontSize="medium" style={{ color: 'white' }} />
-                  </S.ContactIcon>
-                </S.ContactBrideCircle>
+                <CircleIcon Icon={PhoneIcon} color="#e7a33e" />
+                <CircleIcon Icon={SmsIcon} color="#e7a33e" />
               </td>
             </tr>
           </tbody>

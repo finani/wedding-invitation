@@ -37,5 +37,12 @@
       }
     ]
   },
-  "cSpell.words": ["firestore", "naver", "navermaps", "papayawhip", "swipeable"]
+  "cSpell.words": [
+    "firestore",
+    "naver",
+    "navermaps",
+    "Overridable",
+    "papayawhip",
+    "swipeable"
+  ]
 }
