@@ -1,21 +1,21 @@
 import * as CS from 'src/common/components/Styles';
 import * as S from './Styles';
 
-function Contact() {
+function Account() {
   return (
-    <CS.EvenContainer>
+    <CS.OddContainer>
       <CS.MainInfoGridList>
         <CS.MainDetails>
           <CS.Title>
             <br></br>
-            Contact
+            Account
             <br></br>
           </CS.Title>
         </CS.MainDetails>
-        <CS.MainImg src="/images/mobile/SYD_0056.jpg" alt="Love, love, love" />
+        <CS.MainImg src="/images/mobile/SYD_0508.jpg" alt="Love, love, love" />
       </CS.MainInfoGridList>
-    </CS.EvenContainer>
+    </CS.OddContainer>
   );
 }
 
-export default Contact;
+export default Account;

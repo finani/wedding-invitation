@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import {
+  Account,
   CalendarCard,
   Contact,
   Footer,
@@ -22,10 +23,11 @@ function Home() {
     <>
       <MainCard />
       <Invitation />
-      <Contact showAccount={showAccount} />
+      <Contact />
       <Gallery />
       <CalendarCard />
       <MapCard />
+      {showAccount && <Account />}
       <GuestBook />
       <Footer />
     </>
