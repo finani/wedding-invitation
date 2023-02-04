@@ -21,7 +21,7 @@ export const MainInfo = styled.div`
   ${media.medium} {
     margin: 0 5%;
   }
-  ${media.xsmall} {
+  ${media.xSmall} {
     margin: 0;
   }
 `;

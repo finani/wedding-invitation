@@ -12,7 +12,7 @@ export const FooterBody = styled.h4`
   ${media.medium} {
     font-size: 2.25vw;
   }
-  ${media.xsmall} {
+  ${media.xSmall} {
     font-size: 3vw;
   }
   text-align: right;

@@ -7,8 +7,6 @@ import {
   orderBy,
   addDoc,
   onSnapshot,
-  serverTimestamp,
-  Timestamp,
 } from 'firebase/firestore';
 
 import * as CS from 'src/common/components/Styles';

@@ -12,7 +12,7 @@ export const InvitationTitle = styled.h1`
   ${media.medium} {
     font-size: 5vw;
   }
-  ${media.xsmall} {
+  ${media.xSmall} {
     font-size: 6vw;
   }
   text-align: center;
@@ -25,7 +25,7 @@ export const InvitationTable = styled.table`
   ${media.medium} {
     font-size: 3vw;
   }
-  ${media.xsmall} {
+  ${media.xSmall} {
     font-size: 4vw;
   }
   text-align: center;
@@ -41,7 +41,7 @@ export const InvitationText = styled.h4`
   ${media.medium} {
     font-size: 2.25vw;
   }
-  ${media.xsmall} {
+  ${media.xSmall} {
     font-size: 3vw;
   }
   text-align: center;

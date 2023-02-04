@@ -6,7 +6,7 @@ export const MapCardContainer = styled.div`
 `;
 
 export const MapDiv = styled.div`
-  min-height: 60vh;
+  min-height: 70vh;
   margin: 5%;
 `;
 
@@ -17,7 +17,7 @@ export const MapCardTitle = styled.h1`
   ${media.medium} {
     font-size: 5vw;
   }
-  ${media.xsmall} {
+  ${media.xSmall} {
     font-size: 6vw;
   }
   text-align: center;
@@ -30,7 +30,7 @@ export const MapCardText = styled.h4`
   ${media.medium} {
     font-size: 1.5vw;
   }
-  ${media.xsmall} {
+  ${media.xSmall} {
     font-size: 2vw;
   }
   text-align: left;

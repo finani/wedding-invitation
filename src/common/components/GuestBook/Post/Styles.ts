@@ -15,7 +15,7 @@ export const PostTitle = styled.h1`
   ${media.medium} {
     font-size: 3.75vw;
   }
-  ${media.xsmall} {
+  ${media.xSmall} {
     font-size: 4.5vw;
   }
   color: ${color.gray700};
@@ -28,7 +28,7 @@ export const PostDate = styled.p`
   ${media.medium} {
     font-size: 2.5vw;
   }
-  ${media.xsmall} {
+  ${media.xSmall} {
     font-size: 3vw;
   }
   color: ${color.gray300};
@@ -41,7 +41,7 @@ export const PostContent = styled.p`
   ${media.medium} {
     font-size: 3.75vw;
   }
-  ${media.xsmall} {
+  ${media.xSmall} {
     font-size: 4.5vw;
   }
   color: ${color.gray500};

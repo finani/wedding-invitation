@@ -9,10 +9,19 @@ function MapCard() {
   useEffect(() => {
     const lat = 37.4800335;
     const lon = 126.8953833;
+    const center = new naver.maps.LatLng(lat, lon);
     mapRef.current = new naver.maps.Map('map', {
-      center: new naver.maps.LatLng(lat, lon),
-      zoom: 15,
-      // zoomControl: true,
+      center: center,
+      disableDoubleClickZoom: false,
+      disableDoubleTapZoom: false,
+      disableTwoFingerTapZoom: false,
+      draggable: false,
+      keyboardShortcuts: false,
+      pinchZoom: false,
+      scrollWheel: false,
+      zoom: 14,
+      zoomControl: true,
+      zoomOrigin: center,
     });
 
     const marker = new naver.maps.Marker({
@@ -22,21 +31,30 @@ function MapCard() {
     });
 
     const contentHtml = [
-      '<div style="max-width:40vw; max-height: 50vh; padding:10px 15px;">',
+      '<div style="max-width:30vw; max-height: 40vh; padding:0px 15px 10px 15px;">',
       '<a title="지타워 컨벤션" href="https://m.place.naver.com/share?id=1090437805" target="_blank" rel="noopener noreferrer">' +
-        '<h3 style="text-align:center;">지타워 컨벤션</h3></a>',
+        '<h4 style="text-align:center;">지타워 컨벤션</h4></a>',
       '<a title="지타워 컨벤션" href="https://m.place.naver.com/share?id=1090437805" target="_blank" rel="noopener noreferrer">' +
         '<img src="https://ldb-phinf.pstatic.net/20211027_73/1635312757019eR6q1_JPEG/0rQFPGvbVjAbWhGRh3OeTI69.jpeg.jpg"' +
-        'style="max-width: 40vw; max-height: 20vh;" /></a>',
-      '<p style="color:black; text-align:center">우리 여기서 결혼해요~♥️</p>',
+        'style="max-width: 30vw; max-height: 30vh;" /></a>',
       '</div>',
     ].join('');
 
+    const mapElement = document.getElementById('map');
+    const mapElementWidth =
+      mapElement?.offsetWidth === undefined ? 0 : mapElement.offsetWidth;
+    const mapElementHeight =
+      mapElement?.offsetHeight === undefined ? 0 : mapElement.offsetHeight;
+
+    const offsetX = mapElementWidth * 0.25;
+    const offsetY = mapElementHeight * -0.2;
     const wineShopInfoWindow = new naver.maps.InfoWindow({
       content: contentHtml,
-      pixelOffset: new naver.maps.Point(0, -10),
+      pixelOffset: new naver.maps.Point(offsetX, offsetY),
+      anchorSkew: true,
     });
 
+    wineShopInfoWindow.open(mapRef.current, marker);
     const listener = naver.maps.Event.addListener(
       marker,
       'click',

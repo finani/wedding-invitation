@@ -8,7 +8,7 @@ export const GuestBookTitle = styled.h1`
   ${media.medium} {
     font-size: 5vw;
   }
-  ${media.xsmall} {
+  ${media.xSmall} {
     font-size: 6vw;
   }
   text-align: center;
