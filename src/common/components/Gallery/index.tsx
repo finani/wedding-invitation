@@ -26,6 +26,10 @@ function Gallery() {
       thumbnail: '/images/mobile/SYD_0270.jpg',
     },
     {
+      original: '/images/studio/SYD_0305.jpg',
+      thumbnail: '/images/studio/SYD_0305.jpg',
+    },
+    {
       original: '/images/mobile/SYD_0328.jpg',
       thumbnail: '/images/mobile/SYD_0328.jpg',
     },
@@ -58,6 +62,10 @@ function Gallery() {
       thumbnail: '/images/mobile/SYD_0602.jpg',
     },
     {
+      original: '/images/mobile/SYD_0613.jpg',
+      thumbnail: '/images/mobile/SYD_0613.jpg',
+    },
+    {
       original: '/images/studio/SYD_0729.jpg',
       thumbnail: '/images/studio/SYD_0729.jpg',
     },
@@ -68,6 +76,10 @@ function Gallery() {
     {
       original: '/images/daily/1637499857042-3.jpg',
       thumbnail: '/images/daily/1637499857042-3.jpg',
+    },
+    {
+      original: '/images/daily/IMG_0823.jpg',
+      thumbnail: '/images/daily/IMG_0823.jpg',
     },
   ];
 
