@@ -5,6 +5,9 @@ import * as CS from 'src/common/components/Styles';
 import CircleIcon from './CircleIcon';
 
 function Contact() {
+  const groomColor = "#70b5f9";
+  const brideColor = "#db7290";
+
   return (
     <CS.CommonContainer>
       <CS.CommonBody>
@@ -13,19 +16,19 @@ function Contact() {
             <tr>
               <td>신랑에게 연락하기</td>
               <td>
-                <CircleIcon Icon={PhoneIcon} color="#70b5f9" />
+                <CircleIcon Icon={PhoneIcon} color={groomColor} />
               </td>
               <td>
-                <CircleIcon Icon={SmsIcon} color="#70b5f9" />
+                <CircleIcon Icon={SmsIcon} color={groomColor} />
               </td>
             </tr>
             <tr>
               <td>신부에게 연락하기</td>
               <td>
-                <CircleIcon Icon={PhoneIcon} color="#e7a33e" />
+                <CircleIcon Icon={PhoneIcon} color={brideColor} />
               </td>
               <td>
-                <CircleIcon Icon={SmsIcon} color="#e7a33e" />
+                <CircleIcon Icon={SmsIcon} color={brideColor} />
               </td>
             </tr>
           </tbody>
@@ -43,12 +46,12 @@ function Contact() {
             </tr>
             <tr>
               <td>
-                <CircleIcon Icon={PhoneIcon} color="#70b5f9" />
-                <CircleIcon Icon={SmsIcon} color="#70b5f9" />
+                <CircleIcon Icon={PhoneIcon} color={groomColor} />
+                <CircleIcon Icon={SmsIcon} color={groomColor} />
               </td>
               <td>
-                <CircleIcon Icon={PhoneIcon} color="#e7a33e" />
-                <CircleIcon Icon={SmsIcon} color="#e7a33e" />
+                <CircleIcon Icon={PhoneIcon} color={brideColor} />
+                <CircleIcon Icon={SmsIcon} color={brideColor} />
               </td>
             </tr>
             <tr>
@@ -57,12 +60,12 @@ function Contact() {
             </tr>
             <tr>
               <td>
-                <CircleIcon Icon={PhoneIcon} color="#70b5f9" />
-                <CircleIcon Icon={SmsIcon} color="#70b5f9" />
+                <CircleIcon Icon={PhoneIcon} color={groomColor} />
+                <CircleIcon Icon={SmsIcon} color={groomColor} />
               </td>
               <td>
-                <CircleIcon Icon={PhoneIcon} color="#e7a33e" />
-                <CircleIcon Icon={SmsIcon} color="#e7a33e" />
+                <CircleIcon Icon={PhoneIcon} color={brideColor} />
+                <CircleIcon Icon={SmsIcon} color={brideColor} />
               </td>
             </tr>
           </tbody>
