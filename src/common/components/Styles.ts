@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { color, media } from 'src/common/utils/styles';
+import { color } from 'src/common/utils/styles';
 
 export const CommonContainer = styled.div`
   max-width: 450px;
@@ -52,22 +52,6 @@ export const HorizontalBar = styled.hr`
   border: none;
 
   background-color: ${color.gray900};
-`;
-
-export const MainInfoGridList = styled.div`
-  display: grid;
-  gap: 40px;
-  grid-template-columns: repeat(2, minmax(200px, 1fr));
-
-  margin: 0 15%;
-  padding: 20px;
-
-  ${media.small} {
-    grid-template-columns: repeat(1, minmax(100px, 1fr));
-
-    margin: 0;
-    padding: 20px;
-  }
 `;
 
 export const MainImg = styled.img`

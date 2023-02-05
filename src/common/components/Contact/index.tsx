@@ -5,8 +5,8 @@ import * as CS from 'src/common/components/Styles';
 import CircleIcon from './CircleIcon';
 
 function Contact() {
-  const groomColor = "#70b5f9";
-  const brideColor = "#db7290";
+  const groomColor = '#70b5f9';
+  const brideColor = '#db7290';
 
   return (
     <CS.CommonContainer>

@@ -18,18 +18,6 @@ export const color = {
   text: 'papayawhip',
 };
 
-export const size = {
-  globalFontSize: 14,
-};
-
-export const font = {
-  light: 'font-weight: 300;',
-  regular: 'font-weight: 400;',
-  medium: 'font-weight: 500;',
-  bold: 'font-weight: 700;',
-  size: (fontSize: number) => `font-size: ${fontSize}px;`,
-};
-
 export const mediaQuery = (maxWidth: number) => `
   @media (max-width: ${maxWidth}px)
 `;
