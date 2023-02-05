@@ -15,6 +15,9 @@ export const color = {
 
   wine: '#db7290',
 
+  groomColor: '#6fa8dc',
+  brideColor: '#db7290',
+
   text: 'papayawhip',
 };
 
