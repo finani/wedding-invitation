@@ -62,8 +62,8 @@ function Gallery() {
       thumbnail: '/images/mobile/SYD_0602.jpg',
     },
     {
-      original: '/images/mobile/SYD_0613.jpg',
-      thumbnail: '/images/mobile/SYD_0613.jpg',
+      original: '/images/studio/SYD_0613.jpg',
+      thumbnail: '/images/studio/SYD_0613.jpg',
     },
     {
       original: '/images/studio/SYD_0729.jpg',
