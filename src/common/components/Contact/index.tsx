@@ -5,7 +5,7 @@ import * as CS from 'src/common/components/Styles';
 import CircleIcon from './CircleIcon';
 
 function Contact() {
-  const groomColor = '#70b5f9';
+  const groomColor = '#6fa8dc';
   const brideColor = '#db7290';
 
   return (
@@ -16,7 +16,9 @@ function Contact() {
             <tr>
               <td>신랑에게 연락하기</td>
               <td>
-                <CircleIcon Icon={PhoneIcon} color={groomColor} />
+                <a href="tel:010-4715-0476">
+                  <CircleIcon Icon={PhoneIcon} color={groomColor} />
+                </a>
               </td>
               <td>
                 <CircleIcon Icon={SmsIcon} color={groomColor} />
@@ -25,7 +27,9 @@ function Contact() {
             <tr>
               <td>신부에게 연락하기</td>
               <td>
-                <CircleIcon Icon={PhoneIcon} color={brideColor} />
+                <a href="tel:010-2361-4112">
+                  <CircleIcon Icon={PhoneIcon} color={brideColor} />
+                </a>
               </td>
               <td>
                 <CircleIcon Icon={SmsIcon} color={brideColor} />
@@ -46,11 +50,15 @@ function Contact() {
             </tr>
             <tr>
               <td>
-                <CircleIcon Icon={PhoneIcon} color={groomColor} />
+                <a href="tel:010-2206-0475">
+                  <CircleIcon Icon={PhoneIcon} color={groomColor} />
+                </a>
                 <CircleIcon Icon={SmsIcon} color={groomColor} />
               </td>
               <td>
-                <CircleIcon Icon={PhoneIcon} color={brideColor} />
+                <a href="tel:010-7777-6414">
+                  <CircleIcon Icon={PhoneIcon} color={brideColor} />
+                </a>
                 <CircleIcon Icon={SmsIcon} color={brideColor} />
               </td>
             </tr>
@@ -60,11 +68,15 @@ function Contact() {
             </tr>
             <tr>
               <td>
-                <CircleIcon Icon={PhoneIcon} color={groomColor} />
+                <a href="tel:010-8547-0476">
+                  <CircleIcon Icon={PhoneIcon} color={groomColor} />
+                </a>
                 <CircleIcon Icon={SmsIcon} color={groomColor} />
               </td>
               <td>
-                <CircleIcon Icon={PhoneIcon} color={brideColor} />
+                <a href="tel:010-3777-7118">
+                  <CircleIcon Icon={PhoneIcon} color={brideColor} />
+                </a>
                 <CircleIcon Icon={SmsIcon} color={brideColor} />
               </td>
             </tr>

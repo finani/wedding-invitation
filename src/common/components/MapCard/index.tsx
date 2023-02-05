@@ -49,12 +49,12 @@ function MapCard() {
     const mapElementHeight =
       mapElement?.offsetHeight === undefined ? 0 : mapElement.offsetHeight;
 
-    const offsetX = mapElementWidth * 0.2;
+    const offsetX = mapElementWidth * 0.15;
     const offsetY = mapElementHeight * -0.15;
     const wineShopInfoWindow = new naver.maps.InfoWindow({
       content: contentHtml,
-      pixelOffset: new naver.maps.Point(offsetX, offsetY),
       anchorSkew: true,
+      pixelOffset: new naver.maps.Point(offsetX, offsetY),
     });
 
     wineShopInfoWindow.open(mapRef.current, marker);
