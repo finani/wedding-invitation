@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const FloatingShareContainer = styled.div`
   position: fixed;
-  bottom: 2vh;
-  right: max(2vw, calc(52vw - 225px));
+  bottom: 5vh;
+  right: max(3vw, calc(53vw - 225px));
   z-index: 100;
 `;
 
