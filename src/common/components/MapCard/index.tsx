@@ -34,12 +34,12 @@ function MapCard() {
     });
 
     const contentHtml = [
-      '<div style="max-width:30vw; max-height: 40vh; padding:0px 15px 10px 15px;">',
+      '<div style="padding:0px 10px 5px 10px;">',
       '<a title="지타워 컨벤션" href="https://m.place.naver.com/share?id=1090437805" target="_blank" rel="noopener noreferrer">' +
         '<h4 style="text-align:center;">지타워 컨벤션</h4></a>',
       '<a title="지타워 컨벤션" href="https://m.place.naver.com/share?id=1090437805" target="_blank" rel="noopener noreferrer">' +
         '<img src="https://ldb-phinf.pstatic.net/20211027_73/1635312757019eR6q1_JPEG/0rQFPGvbVjAbWhGRh3OeTI69.jpeg.jpg"' +
-        'style="max-width: 30vw; max-height: 30vh;" /></a>',
+        'style="width: 40vw; max-width: 150px;" /></a>',
       '</div>',
     ].join('');
 
@@ -50,7 +50,7 @@ function MapCard() {
       mapElement?.offsetHeight === undefined ? 0 : mapElement.offsetHeight;
 
     const offsetX = mapElementWidth * 0.2;
-    const offsetY = mapElementHeight * -0.1;
+    const offsetY = mapElementHeight * -0.15;
     const wineShopInfoWindow = new naver.maps.InfoWindow({
       content: contentHtml,
       pixelOffset: new naver.maps.Point(offsetX, offsetY),
