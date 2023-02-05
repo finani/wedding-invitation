@@ -1,10 +1,9 @@
-import { color } from 'src/common/utils/styles';
 import styled from 'styled-components';
 
 export const FloatingShareContainer = styled.div`
   position: fixed;
   bottom: 2vh;
-  right: 2vw;
+  right: max(2vw, calc(52vw - 225px));
   z-index: 100;
 `;
 
