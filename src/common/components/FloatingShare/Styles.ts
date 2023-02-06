@@ -6,9 +6,3 @@ export const FloatingShareContainer = styled.div`
   right: max(3vw, calc(53vw - 225px));
   z-index: 100;
 `;
-
-export const KakaoShareContainer = styled.div`
-  width: 40px;
-  height: 40px;
-  margin: 1vh 5px;
-`;

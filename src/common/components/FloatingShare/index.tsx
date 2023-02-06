@@ -66,9 +66,9 @@ const copyToClipboard = () => {
 function FloatingShare() {
   return (
     <S.FloatingShareContainer>
-      <S.KakaoShareContainer onClick={shareKakao}>
-        <CS.MainImg src="/images/share/kakao-circle.png" alt="kakao talk" />
-      </S.KakaoShareContainer>
+      <CS.ImageContainer onClick={shareKakao}>
+        <CS.MainImg src="/images/share/kakao-talk-circle.png" alt="kakao talk" />
+      </CS.ImageContainer>
       <div onClick={copyToClipboard}>
         <CircleIcon Icon={LinkIcon} color={color.groomColor} />
       </div>

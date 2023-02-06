@@ -12,6 +12,8 @@ export const CircleContainer = styled.div.attrs(
   border-radius: 50%;
 
   background-color: ${(props) => props.backGroundColor};
+
+  cursor: pointer;
 `;
 
 export const IconContainer = styled.div`

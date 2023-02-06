@@ -57,3 +57,11 @@ export const HorizontalBar = styled.hr`
 export const MainImg = styled.img`
   width: 100%;
 `;
+
+export const ImageContainer = styled.div`
+  width: 40px;
+  height: 40px;
+  margin: 1vh 5px;
+
+  cursor: pointer;
+`;
