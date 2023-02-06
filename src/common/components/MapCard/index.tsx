@@ -59,13 +59,13 @@ function MapCard() {
       pixelOffset: new naver.maps.Point(offsetX, offsetY),
     });
 
-    wineShopInfoWindow.open(mapRef.current, marker);
     const listener = naver.maps.Event.addListener(
       marker,
       'click',
       function (e) {
         if (wineShopInfoWindow.getMap()) {
           wineShopInfoWindow.close();
+          mapRef.current.setCenter(center);
         } else {
           wineShopInfoWindow.open(mapRef.current, marker);
         }
