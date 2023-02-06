@@ -7,6 +7,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Create a .env.local file with the following information.
 
 ```typescript
+NEXT_PUBLIC_KAKAO_API_KEY = '...';
+
 FIREBASE_API_KEY = '...';
 FIREBASE_AUTH_DOMAIN = '...';
 FIREBASE_STORAGE_BUCKET = '...';
