@@ -42,9 +42,17 @@ class MyDocument extends Document {
             async
             strategy="beforeInteractive"
             onError={(e: any) => {
-              console.error('Script failed to load', e);
+              console.error('Script (naver) failed to load', e);
             }}
             src={`https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${process.env.NAVER_MAP_KEY}`}
+          />
+          <Script
+            async
+            strategy="beforeInteractive"
+            onError={(e: any) => {
+              console.error('Script (kakao) failed to load', e);
+            }}
+            src={`https://developers.kakao.com/sdk/js/kakao.js`}
           />
         </Head>
         <body>

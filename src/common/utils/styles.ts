@@ -17,6 +17,7 @@ export const color = {
 
   groomColor: '#6fa8dc',
   brideColor: '#db7290',
+  kakaoColor: '#ffeb00',
 
   text: 'papayawhip',
 };
