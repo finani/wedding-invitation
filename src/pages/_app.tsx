@@ -1,4 +1,5 @@
 import type { AppProps } from 'next/app';
+import getConfig from 'next/config';
 import { useEffect } from 'react';
 
 import { GlobalStyle } from 'styles/globalStyles';
@@ -12,7 +13,9 @@ declare global {
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     if (!window.Kakao.isInitialized()) {
-      window.Kakao.init(process.env.NEXT_PUBLIC_KAKAO_API_KEY);
+      const { publicRuntimeConfig } = getConfig();
+
+      window.Kakao.init(publicRuntimeConfig.PUBLIC_KAKAO_API_KEY);
     }
   }, []);
 
