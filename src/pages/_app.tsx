@@ -6,16 +6,15 @@ import { GlobalStyle } from 'styles/globalStyles';
 
 declare global {
   interface Window {
-    Kakao: any;
+    Kakao: any | undefined;
   }
 }
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    if (!window.Kakao.isInitialized()) {
+    if (!window.Kakao?.isInitialized()) {
       const { publicRuntimeConfig } = getConfig();
-
-      window.Kakao.init(publicRuntimeConfig.PUBLIC_KAKAO_API_KEY);
+      window.Kakao?.init(publicRuntimeConfig.PUBLIC_KAKAO_API_KEY);
     }
   }, []);
 
