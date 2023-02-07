@@ -2,44 +2,64 @@ import { color } from 'src/common/utils/styles';
 import styled from 'styled-components';
 
 export const ModalContainer = styled.div`
+  display: flex;
+
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-flow: row wrep;
   justify-content: center;
   align-items: center;
 `;
 
 export const ModalBtn = styled.button`
-  background-color: ${color.groomColor};
-  text-decoration: none;
+  padding: 4px 8px;
   border: none;
-  padding: 20px;
-  color: white;
   border-radius: 30px;
+
+  font-size: 0.8rem;
+  color: white;
+  background-color: ${color.groomColor};
+
   cursor: pointer;
 `;
 
 export const ModalBackdrop = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+
   width: 100vw;
   height: 100vh;
-  position: fixed;
-  left: 0;
-  top: 0;
-  display: flex;
-  flex-flow: row wrep;
   justify-content: center;
   align-items: center;
+
   background: rgba(0, 0, 0, 0.5);
 `;
 
 export const ModalView = styled.div.attrs(props => ({
   role: 'dialog'
 }))`
-  text-align: center;
-  text-decoration: none;
-  padding: 30px 90px;
-  background-color: white;
+  width: min(270px, 60vw);
+  padding: 30px 20px;
   border-radius: 30px;
+
+  color: ${color.gray900};
+  background-color: white;
+  text-align: center;
+`;
+
+export const ModalTimes = styled.div`
+  font-size: 1.0rem;
+  text-align: right;
+
   color: ${color.groomColor};
+  line-height: 0rem;
+`;
+
+export const ModalBody = styled.h4`
+  font-size: 0.8rem;
+  text-align: center;
+
+  line-height: 0.6rem;
 `;

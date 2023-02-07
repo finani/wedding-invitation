@@ -60,7 +60,7 @@ const copyToClipboard = () => {
     document.getSelection()?.removeAllRanges();
     document.getSelection()?.addRange(selected);
   }
-  alert('주소가 복사되었습니다.\n(' + linkAddress + ')');
+  alert('주소가 복사되었습니다.\n( ' + linkAddress + ' )');
 };
 
 function FloatingShare() {
