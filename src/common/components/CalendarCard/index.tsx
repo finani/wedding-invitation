@@ -44,9 +44,10 @@ function CalendarCard() {
     Math.abs((weddingDate.getTime() - today.getTime()) / oneDay),
   );
   const footer = (
-    <p>
-      D-day: <a>{diffDays} days</a> left
-    </p>
+    <CS.CommonP>
+      2023년 4월 8일 오전 11시<br></br>
+      <a>인환 ❤ 채윤</a> 결혼식이 <a>{diffDays} 일</a> 남았습니다.
+    </CS.CommonP>
   );
 
   return (
