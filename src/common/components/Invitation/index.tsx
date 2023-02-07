@@ -35,7 +35,7 @@ function Invitation() {
           </tbody>
         </CS.CommonTable>
       </CS.CommonBody>
-      <CS.MainImg src="/images/studio/SYD_0487.jpg" alt="Love, love, love" />
+      <CS.MainImg src='/images/studio/SYD_0487.jpg' alt='Love, love, love' />
     </CS.CommonContainer>
   );
 }

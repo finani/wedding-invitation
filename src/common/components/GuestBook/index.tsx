@@ -69,8 +69,8 @@ function GuestBook() {
               <S.Input
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                type="text"
-                placeholder="이름"
+                type='text'
+                placeholder='이름'
                 required
               />
               <br></br>
@@ -78,12 +78,12 @@ function GuestBook() {
               <S.TextArea
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                placeholder="축하 메시지를 남겨주세요!"
+                placeholder='축하 메시지를 남겨주세요!'
                 required
               />
               <br></br>
               <br></br>
-              <S.Button onClick={sendPost} type="submit">
+              <S.Button onClick={sendPost} type='submit'>
                 등록하기
               </S.Button>
             </form>

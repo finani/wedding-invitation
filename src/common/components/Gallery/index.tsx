@@ -90,7 +90,7 @@ function Gallery() {
         <ReactImageGallery
           items={images}
           lazyLoad={true}
-          thumbnailPosition="right"
+          thumbnailPosition='right'
           showIndex={true}
           autoPlay={true}
           slideInterval={4000}

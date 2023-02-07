@@ -89,7 +89,7 @@ function MapCard() {
     <CS.CommonContainer>
       <CS.CommonBody>
         <CS.CommonTitle>오시는 길</CS.CommonTitle>
-        <S.MapContainer id="map" />
+        <S.MapContainer id='map' />
         <CS.CommonTable>
           <tbody>
             <tr>
@@ -99,7 +99,7 @@ function MapCard() {
               <td>
                 <CS.ImageContainer>
                   <a href='https://m.place.naver.com/share?id=1090437805' target='_blank' rel='noopener noreferrer' >
-                    <CS.MainImg src="/images/share/naver-map.png" alt="naver map" />
+                    <CS.MainImg src='/images/share/naver-map.png' alt='naver map' />
                   </a>
                 </CS.ImageContainer>
               </td>
@@ -111,7 +111,7 @@ function MapCard() {
               <td>
                 <CS.ImageContainer>
                   <a href='https://place.map.kakao.com/197749949' target='_blank' rel='noopener noreferrer' >
-                    <CS.MainImg src="/images/share/kakao-map.png" alt="kakao map" />
+                    <CS.MainImg src='/images/share/kakao-map.png' alt='kakao map' />
                   </a>
                 </CS.ImageContainer>
               </td>
@@ -123,7 +123,7 @@ function MapCard() {
               <td>
                 <CS.ImageContainer>
                   <a href='https://goo.gl/maps/2yS9ShBbmGD3d7BS6' target='_blank' rel='noopener noreferrer' >
-                    <CS.MainImg src="/images/share/google-map.jpg" alt="google map" />
+                    <CS.MainImg src='/images/share/google-map.jpg' alt='google map' />
                   </a>
                 </CS.ImageContainer>
               </td>
@@ -165,7 +165,7 @@ function MapCard() {
               <td>
                 <CS.ImageContainer>
                   <a onClick={navigateNaverMap} >
-                    <CS.MainImg src="/images/share/naver-map.png" alt="naver map" />
+                    <CS.MainImg src='/images/share/naver-map.png' alt='naver map' />
                   </a>
                 </CS.ImageContainer>
               </td>
@@ -177,7 +177,7 @@ function MapCard() {
               <td>
                 <CS.ImageContainer>
                   <a onClick={navigateKakaoMap} >
-                    <CS.MainImg src="/images/share/kakao-map.png" alt="kakao map" />
+                    <CS.MainImg src='/images/share/kakao-map.png' alt='kakao map' />
                   </a>
                 </CS.ImageContainer>
               </td>
@@ -189,7 +189,7 @@ function MapCard() {
               <td>
                 <CS.ImageContainer>
                   <a onClick={navigateTMap} >
-                    <CS.MainImg src="/images/share/t-map.svg" alt="t map" />
+                    <CS.MainImg src='/images/share/t-map.svg' alt='t map' />
                   </a>
                 </CS.ImageContainer>
               </td>

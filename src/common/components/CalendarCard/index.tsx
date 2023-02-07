@@ -30,7 +30,7 @@ function CalendarCard() {
     const season = getSeason(date);
     return (
       <>
-        <span role="img" aria-label={season}>
+        <span role='img' aria-label={season}>
           {seasonEmoji[season]}
           &nbsp; &nbsp;
         </span>
@@ -55,7 +55,7 @@ function CalendarCard() {
       <CS.CommonBody>
         <S.CalendarContainer>
           <DayPicker
-            mode="single"
+            mode='single'
             defaultMonth={weddingDate}
             modifiers={{ booked: weddingDate }}
             modifiersStyles={{

@@ -11,7 +11,7 @@ function CircleIcon({ Icon, color }: CircleIconProps) {
   return (
     <S.CircleContainer backGroundColor={color}>
       <S.IconContainer>
-        <Icon fontSize="medium" style={{ color: 'white' }} />
+        <Icon fontSize='medium' style={{ color: 'white' }} />
       </S.IconContainer>
     </S.CircleContainer>
   );

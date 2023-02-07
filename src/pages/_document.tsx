@@ -40,7 +40,7 @@ class MyDocument extends Document {
         <Head>
           <Script
             async
-            strategy="beforeInteractive"
+            strategy='beforeInteractive'
             onError={(e: any) => {
               console.error('Script (naver) failed to load', e);
             }}
@@ -48,7 +48,7 @@ class MyDocument extends Document {
           />
           <Script
             async
-            strategy="beforeInteractive"
+            strategy='beforeInteractive'
             onError={(e: any) => {
               console.error('Script (kakao) failed to load', e);
             }}

@@ -16,7 +16,7 @@ function Contact() {
             <tr>
               <td>신랑에게 연락하기</td>
               <td>
-                <a href="tel:010-4715-0476">
+                <a href='tel:010-4715-0476'>
                   <CircleIcon Icon={PhoneIcon} color={color.groomColor} />
                 </a>
               </td>
@@ -29,7 +29,7 @@ function Contact() {
             <tr>
               <td>신부에게 연락하기</td>
               <td>
-                <a href="tel:010-2361-4112">
+                <a href='tel:010-2361-4112'>
                   <CircleIcon Icon={PhoneIcon} color={color.brideColor} />
                 </a>
               </td>
@@ -54,7 +54,7 @@ function Contact() {
             </tr>
             <tr>
               <td>
-                <a href="tel:010-2206-0475">
+                <a href='tel:010-2206-0475'>
                   <CircleIcon Icon={PhoneIcon} color={color.groomColor} />
                 </a>
                 <a href={'sms:010-2206-0475?&body=' + defaultMessage}>
@@ -62,7 +62,7 @@ function Contact() {
                 </a>
               </td>
               <td>
-                <a href="tel:010-7777-6414">
+                <a href='tel:010-7777-6414'>
                   <CircleIcon Icon={PhoneIcon} color={color.brideColor} />
                 </a>
                 <a href={'sms:010-7777-6414?&body=' + defaultMessage}>
@@ -76,7 +76,7 @@ function Contact() {
             </tr>
             <tr>
               <td>
-                <a href="tel:010-8547-0476">
+                <a href='tel:010-8547-0476'>
                   <CircleIcon Icon={PhoneIcon} color={color.groomColor} />
                 </a>
                 <a href={'sms:010-8547-0476?&body=' + defaultMessage}>
@@ -84,7 +84,7 @@ function Contact() {
                 </a>
               </td>
               <td>
-                <a href="tel:010-3777-7118">
+                <a href='tel:010-3777-7118'>
                   <CircleIcon Icon={PhoneIcon} color={color.brideColor} />
                 </a>
                 <a href={'sms:010-3777-7118?&body=' + defaultMessage}>
