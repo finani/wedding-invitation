@@ -97,7 +97,7 @@ function MapCard() {
                 <CS.CommonText>네이버 지도</CS.CommonText>
               </td>
               <td>
-                <CS.ImageContainer>
+                <CS.ImageContainer width='40px' >
                   <a href='https://m.place.naver.com/share?id=1090437805' target='_blank' rel='noopener noreferrer' >
                     <CS.MainImg src='/images/share/naver-map.png' alt='naver map' />
                   </a>
@@ -109,7 +109,7 @@ function MapCard() {
                 <CS.CommonText>카카오 지도</CS.CommonText>
               </td>
               <td>
-                <CS.ImageContainer>
+                <CS.ImageContainer width='40px' >
                   <a href='https://place.map.kakao.com/197749949' target='_blank' rel='noopener noreferrer' >
                     <CS.MainImg src='/images/share/kakao-map.png' alt='kakao map' />
                   </a>
@@ -121,7 +121,7 @@ function MapCard() {
                 <CS.CommonText>구글 지도</CS.CommonText>
               </td>
               <td>
-                <CS.ImageContainer>
+                <CS.ImageContainer width='40px' >
                   <a href='https://goo.gl/maps/2yS9ShBbmGD3d7BS6' target='_blank' rel='noopener noreferrer' >
                     <CS.MainImg src='/images/share/google-map.jpg' alt='google map' />
                   </a>
@@ -163,9 +163,9 @@ function MapCard() {
                 <CS.CommonText>네이버 길찾기</CS.CommonText>
               </td>
               <td>
-                <CS.ImageContainer>
+                <CS.ImageContainer width='40px' >
                   <a onClick={navigateNaverMap} >
-                    <CS.MainImg src='/images/share/naver-map.png' alt='naver map' />
+                    <CS.MainImg src='/images/share/naver-map.png' alt='naver map navigation' />
                   </a>
                 </CS.ImageContainer>
               </td>
@@ -175,9 +175,9 @@ function MapCard() {
                 <CS.CommonText>카카오 길찾기</CS.CommonText>
               </td>
               <td>
-                <CS.ImageContainer>
+                <CS.ImageContainer width='40px' >
                   <a onClick={navigateKakaoMap} >
-                    <CS.MainImg src='/images/share/kakao-map.png' alt='kakao map' />
+                    <CS.MainImg src='/images/share/kakao-map-navigation.png' alt='kakao map navigation' />
                   </a>
                 </CS.ImageContainer>
               </td>
@@ -187,9 +187,9 @@ function MapCard() {
                 <CS.CommonText>티맵 길찾기</CS.CommonText>
               </td>
               <td>
-                <CS.ImageContainer>
+                <CS.ImageContainer width='40px' >
                   <a onClick={navigateTMap} >
-                    <CS.MainImg src='/images/share/t-map.svg' alt='t map' />
+                    <CS.MainImg src='/images/share/t-map.svg' alt='t map navigation' />
                   </a>
                 </CS.ImageContainer>
               </td>

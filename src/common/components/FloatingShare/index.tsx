@@ -66,7 +66,7 @@ const copyToClipboard = () => {
 function FloatingShare() {
   return (
     <S.FloatingShareContainer>
-      <CS.ImageContainer onClick={shareKakao}>
+      <CS.ImageContainer width='40px' onClick={shareKakao}>
         <CS.MainImg src='/images/share/kakao-talk-circle.png' alt='kakao talk' />
       </CS.ImageContainer>
       <div onClick={copyToClipboard}>

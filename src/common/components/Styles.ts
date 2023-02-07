@@ -58,9 +58,11 @@ export const MainImg = styled.img`
   width: 100%;
 `;
 
-export const ImageContainer = styled.div`
-  width: 40px;
-  height: 40px;
+export const ImageContainer = styled.div.attrs(
+  (props: { width: string }) => props,
+)`
+  width: ${(props) => props.width};
+  height: '40px';
   margin: 1vh 5px;
 
   cursor: pointer;
