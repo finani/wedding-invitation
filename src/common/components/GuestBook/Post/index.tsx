@@ -10,13 +10,26 @@ interface PostProps {
 function Post({ name, message, date }: PostProps) {
   return (
     <>
-      <CS.HorizontalBar />
       <S.PostBox>
-        <S.PostTitle>{name}</S.PostTitle>
-        <S.PostDate>
-          {date.toLocaleDateString()} {date.toLocaleTimeString()}
-        </S.PostDate>
-        <S.PostContent>{message}</S.PostContent>
+        <CS.CommonTable>
+          <tbody>
+            <tr>
+              <td style={{width: '55%'}}>
+                <S.PostTitle>{name}</S.PostTitle>
+              </td>
+              <td style={{width: '45%'}}>
+                <S.PostDate>
+                  {date.toLocaleDateString()} {date.toLocaleTimeString()}
+                </S.PostDate>
+              </td>
+            </tr>
+            <tr>
+              <td colSpan={2}>
+                <S.PostContent>{message}</S.PostContent>
+              </td>
+            </tr>
+          </tbody>
+        </CS.CommonTable>
       </S.PostBox>
     </>
   );

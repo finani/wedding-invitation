@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 export const CircleContainer = styled.div.attrs(
-  (props: { backGroundColor: string }) => props,
+  (props: { circleSize: string, backGroundColor: string }) => props,
 )`
   position: relative;
   display: inline-block;
 
-  width: 40px;
-  height: 40px;
-  margin: 0 5px;
+  width: ${(props) => props.circleSize};
+  height: ${(props) => props.circleSize};
+  margin: 5px 0px -3px;
   border-radius: 50%;
 
   background-color: ${(props) => props.backGroundColor};
@@ -16,8 +16,10 @@ export const CircleContainer = styled.div.attrs(
   cursor: pointer;
 `;
 
-export const IconContainer = styled.div`
+export const IconContainer = styled.div.attrs(
+  (props: { topOffset: string, leftOffset: string }) => props,
+)`
   position: absolute;
-  left: 8px;
-  top: 8px;
+  top: ${(props) => props.topOffset};
+  left: ${(props) => props.leftOffset};
 `;

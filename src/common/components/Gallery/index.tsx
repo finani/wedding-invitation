@@ -85,8 +85,9 @@ function Gallery() {
 
   return (
     <CS.CommonContainer>
+      <CS.HorizontalBar />
+      <CS.CommonTitle>Gallery</CS.CommonTitle>
       <CS.CommonBody>
-        <CS.CommonTitle>Gallery</CS.CommonTitle>
         <ReactImageGallery
           items={images}
           lazyLoad={true}

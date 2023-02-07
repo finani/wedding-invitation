@@ -69,8 +69,8 @@ function FloatingShare() {
       <CS.ImageContainer width='40px' onClick={shareKakao}>
         <CS.MainImg src='/images/share/kakao-talk-circle.png' alt='kakao talk' />
       </CS.ImageContainer>
-      <div onClick={copyToClipboard}>
-        <CircleIcon Icon={LinkIcon} color={color.groomColor} />
+      <div onClick={copyToClipboard} style={{margin: '0px 0px 0px 4px'}}>
+        <CircleIcon Icon={LinkIcon} circleSize='40px' topOffset = '8px' leftOffset = '8px' fontSize='medium' color={color.groomColor} />
       </div>
     </S.FloatingShareContainer>
   );

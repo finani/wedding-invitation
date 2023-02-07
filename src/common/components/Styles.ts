@@ -1,6 +1,12 @@
 import styled from 'styled-components';
 import { color } from 'src/common/utils/styles';
 
+export const CommonMargin = styled.div.attrs(
+  (props: { margin: string }) => props,
+)`
+margin: ${(props) => props.margin};
+`;
+
 export const CommonContainer = styled.div`
   max-width: 450px;
   margin: auto;
@@ -19,21 +25,23 @@ export const CommonTitle = styled.h1`
 `;
 
 export const CommonSubTitle = styled.h4`
-  margin: 1rem;
-
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   text-align: center;
 
-  line-height: 1.5rem;
+  line-height: 0.0rem;
 `;
 
-export const CommonText = styled.text`
-  margin: 1rem;
-
+export const CommonSubSubTitle = styled.h4`
   font-size: 0.8rem;
   text-align: center;
 
-  line-height: 1.5rem;
+  line-height: 0.5rem;
+`;
+
+export const CommonP = styled.p`
+  font-size: 0.8rem;
+
+  line-height: 1.4rem;
 `;
 
 export const CommonTable = styled.table`
@@ -47,8 +55,8 @@ export const CommonTable = styled.table`
 `;
 
 export const HorizontalBar = styled.hr`
-  width: 90%;
-  height: 0.5vw;
+  width: 30%;
+  height: 3px;
   border: none;
 
   background-color: ${color.gray900};
@@ -62,8 +70,7 @@ export const ImageContainer = styled.div.attrs(
   (props: { width: string }) => props,
 )`
   width: ${(props) => props.width};
-  height: '40px';
-  margin: 1vh 5px;
+  margin: 0px 5px;
 
   cursor: pointer;
 `;

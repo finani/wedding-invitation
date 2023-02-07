@@ -51,8 +51,9 @@ function CalendarCard() {
 
   return (
     <CS.CommonContainer>
+      <CS.HorizontalBar />
       <CS.CommonTitle>Calendar</CS.CommonTitle>
-      <CS.CommonBody>
+      <CS.CommonSubSubTitle>
         <S.CalendarContainer>
           <DayPicker
             mode='single'
@@ -62,7 +63,7 @@ function CalendarCard() {
               booked: {
                 border: '2px solid',
                 color: color.wine,
-                fontSize: '1.4rem',
+                fontSize: '1.1rem',
               },
             }}
             disableNavigation
@@ -76,7 +77,7 @@ function CalendarCard() {
             footer={footer}
           />
         </S.CalendarContainer>
-      </CS.CommonBody>
+      </CS.CommonSubSubTitle>
     </CS.CommonContainer>
   );
 }

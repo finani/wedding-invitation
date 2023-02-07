@@ -1,48 +1,32 @@
-import { color, media } from 'src/common/utils/styles';
+import { color } from 'src/common/utils/styles';
 import styled from 'styled-components';
 
 export const PostBox = styled.div`
   width: 90%;
-  margin: auto;
+  margin: auto auto 20px;
+  padding: 2px;
+  border-radius: 20px;
 
-  background-color: white;
+  background-color: ${color.gray100};
 `;
 
-export const PostTitle = styled.h1`
-  margin: 1em;
+export const PostTitle = styled.h4`
+  font-size: 1.1rem;
 
-  font-size: 3vw;
-  ${media.medium} {
-    font-size: 3.75vw;
-  }
-  ${media.xSmall} {
-    font-size: 4.5vw;
-  }
-  color: ${color.gray700};
+  color: ${color.groomColor};
+  line-height: 0.0rem;
 `;
 
 export const PostDate = styled.p`
-  margin: 1em 2em 1em 2em;
-
-  font-size: 2vw;
-  ${media.medium} {
-    font-size: 2.5vw;
-  }
-  ${media.xSmall} {
-    font-size: 3vw;
-  }
+  font-size: 0.5rem;
+  text-align: right;
   color: ${color.gray300};
 `;
 
 export const PostContent = styled.p`
-  margin: 1em;
+  margin: 1rem;
 
-  font-size: 3vw;
-  ${media.medium} {
-    font-size: 3.75vw;
-  }
-  ${media.xSmall} {
-    font-size: 4.5vw;
-  }
-  color: ${color.gray500};
+  font-size: 0.8rem;
+  text-align: left;
+  color: ${color.brideColor};
 `;

@@ -1,12 +1,13 @@
 import * as CS from 'src/common/components/Styles';
+import * as S from './Styles';
 
 function Invitation() {
   return (
     <CS.CommonContainer>
+      <CS.HorizontalBar />
+      <CS.CommonTitle>이제 서로, 평생 함께</CS.CommonTitle>
       <CS.CommonBody>
-        <CS.HorizontalBar />
-        <CS.CommonTitle>이제 서로, 평생 함께</CS.CommonTitle>
-        <CS.CommonSubTitle>
+        <S.InvitationBody>
           작은 인연에서 시작된<br></br>
           저희 두 사람의 소중한 사랑이<br></br>
           아름다운 결실이 되어,<br></br>
@@ -19,18 +20,30 @@ function Invitation() {
           <br></br>
           귀한 걸음으로 저희 두 사람의 앞날을<br></br>
           축복해 주시면 감사하겠습니다.
-        </CS.CommonSubTitle>
+        </S.InvitationBody>
         <CS.CommonTable>
           <tbody>
             <tr>
-              <td>위희량, 조단자의</td>
-              <td>아들</td>
-              <td>위인환</td>
+              <td>
+                위희량, 조단자의
+              </td>
+              <td>
+                아들
+              </td>
+              <td style={{ padding: '0px 0px 0px 10px' }}>
+                위인환
+              </td>
             </tr>
             <tr>
-              <td>김태우, 박소연의</td>
-              <td>딸</td>
-              <td>김채윤</td>
+              <td>
+                김태우, 박소연의
+              </td>
+              <td>
+                딸
+              </td>
+              <td style={{ padding: '0px 0px 0px 10px' }}>
+                김채윤
+              </td>
             </tr>
           </tbody>
         </CS.CommonTable>

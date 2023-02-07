@@ -21,16 +21,3 @@ export const color = {
 
   text: 'papayawhip',
 };
-
-export const mediaQuery = (maxWidth: number) => `
-  @media (max-width: ${maxWidth}px)
-`;
-
-export const media = {
-  xLarge: mediaQuery(2560),
-  large: mediaQuery(1440),
-  medium: mediaQuery(1024),
-  small: mediaQuery(768),
-  xSmall: mediaQuery(425),
-  xxSmall: mediaQuery(320),
-};

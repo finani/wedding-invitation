@@ -15,7 +15,7 @@ export const ModalBtn = styled.button`
   border: none;
   border-radius: 30px;
 
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: white;
   background-color: ${color.groomColor};
 
