@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import * as CS from 'src/common/components/Styles';
+import * as S from './Styles';
 
 function Account() {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,6 +39,19 @@ function Account() {
             </tr>
           </tbody>
         </CS.CommonTable>
+        <S.ModalContainer>
+          <S.ModalBtn onClick={openModalHandler}>
+            {isOpen ? 'Opened !' : 'Open Modal'}
+          </S.ModalBtn>
+          {isOpen ?
+          <S.ModalBackdrop onClick={openModalHandler}>
+            <S.ModalView>
+              <div onClick={openModalHandler}>&times;</div>
+              <div>Hello World</div>
+            </S.ModalView>
+          </S.ModalBackdrop>
+          : null}
+        </S.ModalContainer>
     </CS.CommonContainer>
   );
 }
