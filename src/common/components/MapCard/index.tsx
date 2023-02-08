@@ -228,7 +228,7 @@ function MapCard() {
             </tbody>
           </CS.CommonTable>
         </S.MapTextContainer>
-        <CS.CommonMargin margin='40px' />
+        <CS.CommonMargin margin='50px' />
       </CS.CommonBody>
     </CS.CommonContainer>
   );

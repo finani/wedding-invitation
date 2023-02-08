@@ -72,7 +72,7 @@ function Account() {
           </tbody>
         </CS.CommonTable>
       </CS.CommonBody>
-      <CS.CommonMargin margin='30px' />
+      <CS.CommonMargin margin='40px' />
     </CS.CommonContainer>
   );
 }

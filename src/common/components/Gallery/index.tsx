@@ -97,6 +97,7 @@ function Gallery() {
           slideInterval={4000}
         />
       </CS.CommonBody>
+      <CS.CommonMargin margin='50px' />
     </CS.CommonContainer>
   );
 }

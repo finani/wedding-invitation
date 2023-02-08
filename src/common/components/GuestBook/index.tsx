@@ -88,7 +88,7 @@ function GuestBook() {
             </S.Button>
           </form>
         </S.GuestBookPost>
-        <CS.CommonMargin margin='40px' />
+        <CS.CommonMargin margin='50px' />
         <CS.HorizontalBar />
         <CS.CommonMargin margin='20px' />
         {weddingPosts.map(({ id, name, message, date }) => (

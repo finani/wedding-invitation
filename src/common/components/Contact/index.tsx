@@ -112,6 +112,7 @@ function Contact() {
           </tbody>
         </CS.CommonTable>
       </CS.CommonBody>
+      <CS.CommonMargin margin='40px' />
     </CS.CommonContainer>
   );
 }
