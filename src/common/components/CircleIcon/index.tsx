@@ -11,7 +11,14 @@ interface CircleIconProps {
   color: string;
 }
 
-function CircleIcon({ Icon, circleSize = '30px', topOffset = '3px', leftOffset = '6px', fontSize = 'inherent', color }: CircleIconProps) {
+function CircleIcon({
+  Icon,
+  circleSize = '30px',
+  topOffset = '3px',
+  leftOffset = '6px',
+  fontSize = 'inherent',
+  color,
+}: CircleIconProps) {
   return (
     <S.CircleContainer circleSize={circleSize} backGroundColor={color}>
       <S.IconContainer topOffset={topOffset} leftOffset={leftOffset}>

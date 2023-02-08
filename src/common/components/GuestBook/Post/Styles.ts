@@ -14,7 +14,7 @@ export const PostTitle = styled.h4`
   font-size: 1.1rem;
 
   color: ${color.groomColor};
-  line-height: 0.0rem;
+  line-height: 0rem;
 `;
 
 export const PostDate = styled.p`

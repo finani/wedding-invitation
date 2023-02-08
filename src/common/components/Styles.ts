@@ -4,7 +4,7 @@ import { color } from 'src/common/utils/styles';
 export const CommonMargin = styled.div.attrs(
   (props: { margin: string }) => props,
 )`
-margin: ${(props) => props.margin};
+  margin: ${(props) => props.margin};
 `;
 
 export const CommonContainer = styled.div`
@@ -28,7 +28,7 @@ export const CommonSubTitle = styled.h4`
   font-size: 1.1rem;
   text-align: center;
 
-  line-height: 0.0rem;
+  line-height: 0rem;
 `;
 
 export const CommonSubSubTitle = styled.h4`

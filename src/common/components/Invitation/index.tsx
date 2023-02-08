@@ -24,31 +24,19 @@ function Invitation() {
         <CS.CommonTable>
           <tbody>
             <tr>
-              <td>
-                위희량, 조단자의
-              </td>
-              <td>
-                아들
-              </td>
-              <td style={{ padding: '0px 0px 0px 10px' }}>
-                위인환
-              </td>
+              <td>위희량, 조단자의</td>
+              <td>아들</td>
+              <td style={{ padding: '0px 0px 0px 10px' }}>위인환</td>
             </tr>
             <tr>
-              <td>
-                김태우, 박소연의
-              </td>
-              <td>
-                딸
-              </td>
-              <td style={{ padding: '0px 0px 0px 10px' }}>
-                김채윤
-              </td>
+              <td>김태우, 박소연의</td>
+              <td>딸</td>
+              <td style={{ padding: '0px 0px 0px 10px' }}>김채윤</td>
             </tr>
           </tbody>
         </CS.CommonTable>
       </CS.CommonBody>
-      <CS.MainImg src='/images/studio/SYD_0487.jpg' alt='Love, love, love' />
+      <CS.MainImg src="/images/studio/SYD_0487.jpg" alt="Love, love, love" />
     </CS.CommonContainer>
   );
 }

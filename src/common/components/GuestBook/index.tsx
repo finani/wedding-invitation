@@ -69,8 +69,8 @@ function GuestBook() {
             <S.Input
               value={name}
               onChange={(e) => setName(e.target.value)}
-              type='text'
-              placeholder='성함'
+              type="text"
+              placeholder="성함"
               required
             />
             <br></br>
@@ -78,19 +78,19 @@ function GuestBook() {
             <S.TextArea
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder='축하 메시지를 남겨주세요!'
+              placeholder="축하 메시지를 남겨주세요!"
               required
             />
             <br></br>
             <br></br>
-            <S.Button onClick={sendPost} type='submit'>
+            <S.Button onClick={sendPost} type="submit">
               등록하기
             </S.Button>
           </form>
         </S.GuestBookPost>
-        <CS.CommonMargin margin='50px' />
+        <CS.CommonMargin margin="50px" />
         <CS.HorizontalBar />
-        <CS.CommonMargin margin='20px' />
+        <CS.CommonMargin margin="20px" />
         {weddingPosts.map(({ id, name, message, date }) => (
           <Post key={id} name={name} message={message} date={date} />
         ))}

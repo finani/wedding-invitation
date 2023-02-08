@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CircleContainer = styled.div.attrs(
-  (props: { circleSize: string, backGroundColor: string }) => props,
+  (props: { circleSize: string; backGroundColor: string }) => props,
 )`
   position: relative;
   display: inline-block;
@@ -17,7 +17,7 @@ export const CircleContainer = styled.div.attrs(
 `;
 
 export const IconContainer = styled.div.attrs(
-  (props: { topOffset: string, leftOffset: string }) => props,
+  (props: { topOffset: string; leftOffset: string }) => props,
 )`
   position: absolute;
   top: ${(props) => props.topOffset};

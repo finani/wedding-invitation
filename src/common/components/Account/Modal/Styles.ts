@@ -37,8 +37,8 @@ export const ModalBackdrop = styled.div`
   background: rgba(0, 0, 0, 0.5);
 `;
 
-export const ModalView = styled.div.attrs(props => ({
-  role: 'dialog'
+export const ModalView = styled.div.attrs((props) => ({
+  role: 'dialog',
 }))`
   width: min(270px, 60vw);
   padding: 30px 20px;
@@ -50,7 +50,7 @@ export const ModalView = styled.div.attrs(props => ({
 `;
 
 export const ModalTimes = styled.div`
-  font-size: 1.0rem;
+  font-size: 1rem;
   text-align: right;
 
   color: ${color.groomColor};

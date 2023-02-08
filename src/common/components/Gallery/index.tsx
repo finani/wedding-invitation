@@ -91,13 +91,13 @@ function Gallery() {
         <ReactImageGallery
           items={images}
           lazyLoad={true}
-          thumbnailPosition='right'
+          thumbnailPosition="right"
           showIndex={true}
           autoPlay={true}
           slideInterval={4000}
         />
       </CS.CommonBody>
-      <CS.CommonMargin margin='50px' />
+      <CS.CommonMargin margin="50px" />
     </CS.CommonContainer>
   );
 }

@@ -14,10 +14,10 @@ function Post({ name, message, date }: PostProps) {
         <CS.CommonTable>
           <tbody>
             <tr>
-              <td style={{width: '55%'}}>
+              <td style={{ width: '55%' }}>
                 <S.PostTitle>{name}</S.PostTitle>
               </td>
-              <td style={{width: '45%'}}>
+              <td style={{ width: '45%' }}>
                 <S.PostDate>
                   {date.toLocaleDateString()} {date.toLocaleTimeString()}
                 </S.PostDate>

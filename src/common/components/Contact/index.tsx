@@ -10,7 +10,7 @@ function Contact() {
 
   return (
     <CS.CommonContainer>
-      <CS.CommonMargin margin='30px' />
+      <CS.CommonMargin margin="30px" />
       <CS.CommonBody>
         <CS.CommonTable>
           <tbody>
@@ -19,7 +19,7 @@ function Contact() {
                 <CS.CommonSubSubTitle>신랑에게 연락하기</CS.CommonSubSubTitle>
               </td>
               <td style={{ padding: '0px 0px 0px 20px' }}>
-                <a href='tel:010-4715-0476'>
+                <a href="tel:010-4715-0476">
                   <CircleIcon Icon={PhoneIcon} color={color.groomColor} />
                 </a>
               </td>
@@ -34,7 +34,7 @@ function Contact() {
                 <CS.CommonSubSubTitle>신부에게 연락하기</CS.CommonSubSubTitle>
               </td>
               <td style={{ padding: '0px 0px 0px 20px' }}>
-                <a href='tel:010-2361-4112'>
+                <a href="tel:010-2361-4112">
                   <CircleIcon Icon={PhoneIcon} color={color.brideColor} />
                 </a>
               </td>
@@ -59,7 +59,7 @@ function Contact() {
             </tr>
             <tr>
               <td>
-                <a href='tel:010-2206-0475'>
+                <a href="tel:010-2206-0475">
                   <CircleIcon Icon={PhoneIcon} color={color.groomColor} />
                 </a>
               </td>
@@ -69,7 +69,7 @@ function Contact() {
                 </a>
               </td>
               <td style={{ padding: '0px 0px 0px 20px' }}>
-                <a href='tel:010-7777-6414'>
+                <a href="tel:010-7777-6414">
                   <CircleIcon Icon={PhoneIcon} color={color.brideColor} />
                 </a>
               </td>
@@ -85,11 +85,11 @@ function Contact() {
               </td>
               <td colSpan={2} style={{ padding: '0px 0px 0px 20px' }}>
                 <CS.CommonSubSubTitle>어머님 박소연</CS.CommonSubSubTitle>
-            </td>
+              </td>
             </tr>
             <tr>
               <td>
-                <a href='tel:010-8547-0476'>
+                <a href="tel:010-8547-0476">
                   <CircleIcon Icon={PhoneIcon} color={color.groomColor} />
                 </a>
               </td>
@@ -99,7 +99,7 @@ function Contact() {
                 </a>
               </td>
               <td style={{ padding: '0px 0px 0px 20px' }}>
-                <a href='tel:010-3777-7118'>
+                <a href="tel:010-3777-7118">
                   <CircleIcon Icon={PhoneIcon} color={color.brideColor} />
                 </a>
               </td>
@@ -112,7 +112,7 @@ function Contact() {
           </tbody>
         </CS.CommonTable>
       </CS.CommonBody>
-      <CS.CommonMargin margin='40px' />
+      <CS.CommonMargin margin="40px" />
     </CS.CommonContainer>
   );
 }
