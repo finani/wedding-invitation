@@ -5,6 +5,7 @@ function Account() {
   return (
     <CS.CommonContainer>
       <CS.HorizontalBar />
+      <CS.CommonMargin margin='40px' />
       <CS.CommonTitle>Account</CS.CommonTitle>
       <CS.CommonBody>
         <CS.CommonTable>

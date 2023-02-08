@@ -62,6 +62,7 @@ function GuestBook() {
   return (
     <CS.CommonContainer>
       <CS.HorizontalBar />
+      <CS.CommonMargin margin='40px' />
       <CS.CommonTitle>GuestBook</CS.CommonTitle>
       <CS.CommonBody>
         <S.GuestBookPost>
@@ -90,7 +91,7 @@ function GuestBook() {
         </S.GuestBookPost>
         <CS.CommonMargin margin="50px" />
         <CS.HorizontalBar />
-        <CS.CommonMargin margin="20px" />
+        <CS.CommonMargin margin="50px" />
         {weddingPosts.map(({ id, name, message, date }) => (
           <Post key={id} name={name} message={message} date={date} />
         ))}

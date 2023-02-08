@@ -128,6 +128,7 @@ function MapCard() {
   return (
     <CS.CommonContainer>
       <CS.HorizontalBar />
+      <CS.CommonMargin margin='40px' />
       <CS.CommonTitle>오시는 길</CS.CommonTitle>
       <CS.CommonBody>
         <S.MapContainer id="map" />

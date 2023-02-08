@@ -5,6 +5,7 @@ function Invitation() {
   return (
     <CS.CommonContainer>
       <CS.HorizontalBar />
+      <CS.CommonMargin margin='40px' />
       <CS.CommonTitle>이제 서로, 평생 함께</CS.CommonTitle>
       <CS.CommonBody>
         <S.InvitationBody>
