@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 import * as CS from 'src/common/components/Styles';
 import * as S from './Styles';
@@ -6,6 +6,7 @@ import copyToClipboard from 'src/common/utils';
 
 function MapCard() {
   const mapRef = useRef<HTMLElement | null | any>(null);
+  const [isMapRefresh, setMapRefresh] = useState<boolean>(false);
 
   const name = '지타워컨벤션';
   const lat = 37.4800335;
@@ -74,7 +75,7 @@ function MapCard() {
         },
       );
     }
-  }, []);
+  }, [isMapRefresh]);
 
   const navigateNaverMap = () => {
     location.href =
@@ -107,7 +108,22 @@ function MapCard() {
       <CS.CommonMargin margin="40px" />
       <CS.CommonTitle>오시는 길</CS.CommonTitle>
       <CS.CommonBody>
-        <S.MapContainer id="map" />
+        <S.MapContainer id="map">
+          <a
+            onClick={() => {
+              setMapRefresh(!isMapRefresh);
+            }}
+          >
+            <CS.CommonTextContainer style={{paddingTop: '39%', paddingBottom: '39%'}}>
+              <CS.CommonSubTitle>
+                네이버 지도
+              </CS.CommonSubTitle>
+              <CS.CommonSubTitle>
+                새로고침
+              </CS.CommonSubTitle>
+            </CS.CommonTextContainer>
+          </a>
+        </S.MapContainer>
         <CS.CommonMargin margin="10px" />
         <CS.CommonTable>
           <tbody>
