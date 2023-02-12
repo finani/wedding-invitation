@@ -28,21 +28,23 @@ function Invitation() {
               <td>
                 <b>위희량, 조단자</b>의
               </td>
-              <td style={{ padding: '0px 0px 0px 10px' }}>아들</td>{' '}
-              {/* TODO: 붓 배경 */}
-              <td style={{ padding: '0px 0px 0px 10px' }}>
-                <b>인환</b>
-              </td>
+              <S.InvitationImageTd
+                backgroundImage="/images/brush_trans_groom_light.png"
+                style={{ padding: '0px 0px 0px 5px' }}
+              >
+                아들&nbsp;&nbsp;&nbsp;<b>인환</b>
+              </S.InvitationImageTd>
             </tr>
             <tr>
               <td>
                 <b>김태우, 박소연</b>의
               </td>
-              <td style={{ padding: '0px 0px 0px 10px' }}>딸</td>{' '}
-              {/* TODO: 붓 배경 */}
-              <td style={{ padding: '0px 0px 0px 10px' }}>
-                <b>채윤</b>
-              </td>
+              <S.InvitationImageTd
+                backgroundImage="/images/brush_trans_bride_light.png"
+                style={{ padding: '0px 0px 0px 5px' }}
+              >
+                &nbsp;&nbsp;딸&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>채윤</b>
+              </S.InvitationImageTd>
             </tr>
           </tbody>
         </CS.CommonTable>
