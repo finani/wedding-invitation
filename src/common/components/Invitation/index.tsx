@@ -32,7 +32,7 @@ function Invitation() {
                 backgroundImage="/images/brush_trans_groom_light.png"
                 style={{ padding: '0px 0px 0px 5px' }}
               >
-                아들&nbsp;&nbsp;&nbsp;<b>인환</b>
+                &nbsp;아들&nbsp;&nbsp;&nbsp;<b>인환</b>
               </S.InvitationImageTd>
             </tr>
             <tr>
@@ -43,7 +43,11 @@ function Invitation() {
                 backgroundImage="/images/brush_trans_bride_light.png"
                 style={{ padding: '0px 0px 0px 5px' }}
               >
-                &nbsp;&nbsp;딸&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>채윤</b>
+                &nbsp;&nbsp;딸
+                <span style={{ fontSize: '15px' }}>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span>
+                <b>채윤</b>
               </S.InvitationImageTd>
             </tr>
           </tbody>

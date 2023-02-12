@@ -12,6 +12,8 @@ export const InvitationBody = styled.h4`
 export const InvitationImageTd = styled.td.attrs(
   (props: { backgroundImage: string }) => props,
 )`
+  text-align: end;
+
   background-image: url(${(props) => props.backgroundImage});
   background-repeat: no-repeat;
   background-position: 0% 50%;

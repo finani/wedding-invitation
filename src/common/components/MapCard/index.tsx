@@ -74,7 +74,7 @@ function MapCard() {
         },
       );
     }
-  }, 500);
+  }, 100);
 
   const navigateNaverMap = () => {
     location.href =
