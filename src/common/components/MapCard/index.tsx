@@ -182,11 +182,15 @@ function MapCard() {
         <CS.CommonSubTitle>지하철 및 셔틀버스 이용시</CS.CommonSubTitle>
         <CS.CommonTextContainer>
           <CS.CommonP>
-            <b>[지하철 및 도보]</b>
+            <u>
+              <b>[지하철 및 도보]</b>
+            </u>
             <br></br>
             2호선 구로디지털단지역 2번 출구에서 도보 약 15분 이동<br></br>
             <br></br>
-            <b>[지하철 및 셔틀버스 안내]</b>
+            <u>
+              <b>[지하철 및 셔틀버스 안내]</b>
+            </u>
             <br></br>
             셔틀버스는 <b>15분 간격</b>으로 운행됩니다<br></br>
             <br></br>
@@ -208,20 +212,35 @@ function MapCard() {
         <CS.CommonSubTitle>일반버스 이용시</CS.CommonSubTitle>
         <CS.CommonTextContainer>
           <CS.CommonP>
-            - 지선 버스: 5536, 5615, 5616<br></br>&nbsp;&nbsp;&nbsp;- 탑승 방향:
+            <u>
+              <b>[지선 버스]</b>
+            </u>
+            &nbsp;&nbsp;5536, 5615, 5616<br></br>&nbsp;&nbsp;&nbsp;
+            <b>• 탑승 방향: </b>
             디지털단지 방향<br></br>
-            &nbsp;&nbsp;&nbsp;- 하차 위치: 지하이시티 ,G밸리 보건지소<br></br>
-            <br></br>&nbsp;&nbsp;&nbsp;- 탑승 방향: 구로남초등학교 방향<br></br>
-            &nbsp;&nbsp;&nbsp;- 하차 위치: 하이엔드 1차, G밸리 보건지소<br></br>
-            <br></br>- 마을 버스: 금천07 - 지타워 하차
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <b>» 하차: </b>지하이시티, G밸리 보건지소<br></br>
+            <br></br>&nbsp;&nbsp;&nbsp;<b>• 탑승 방향: </b>구로남초등학교 방향
+            <br></br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <b>» 하차: </b>하이엔드 1차, G밸리 보건지소<br></br>
+            <br></br>
+            <u>
+              <b>[마을 버스]</b>
+            </u>
+            &nbsp;&nbsp;금천07<br></br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <b>» 하차: </b>지타워
           </CS.CommonP>
         </CS.CommonTextContainer>
         <CS.CommonMargin margin="30px" />
         <CS.CommonSubTitle>자가용 이용시</CS.CommonSubTitle>
         <CS.CommonTextContainer>
           <CS.CommonP>
-            <b>[내비게이션 검색 주소]</b>
-            <br></br>-{' '}
+            <u>
+              <b>[내비게이션 검색 주소]</b>
+            </u>
+            <br></br>
             <a
               onClick={() => {
                 copyToClipboard(
@@ -229,7 +248,7 @@ function MapCard() {
                 );
               }}
             >
-              서울시 구로구 디지털로 26길 38 (지타워몰, 지타워 주차장)
+              <b>서울시 구로구 디지털로 26길 38 (지타워몰, 지타워 주차장)</b>
             </a>
             <br></br>- 디지털로 28길 도로 이용 진입<br></br>- 동시 1400대 주차
             가능<br></br>- 2시간 무료주차 / 10분당 700원
