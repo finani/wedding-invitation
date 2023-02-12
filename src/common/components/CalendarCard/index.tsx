@@ -34,7 +34,9 @@ function CalendarCard() {
           {seasonEmoji[season]}
           &nbsp; &nbsp;
         </span>
-        {format(date, 'YYY년 MMMM', { locale: options?.locale })}
+        <S.CalendarTitle>
+          {format(date, 'YYY년 MMMM', { locale: options?.locale })}
+        </S.CalendarTitle>
       </>
     );
   };
@@ -58,8 +60,8 @@ function CalendarCard() {
             <a>인환 ❤ 채윤</a> 결혼식이 <a>{diffDays} 일</a> 남았습니다.
           </CS.CommonSubTitleLong>
         </CS.CommonTextContainer>
-        <CS.CommonSubSubTitle>
-          <S.CalendarContainer>
+        <S.CalendarContainer>
+          <S.CalendarBody>
             <DayPicker
               mode="single"
               defaultMonth={weddingDate}
@@ -68,7 +70,7 @@ function CalendarCard() {
                 booked: {
                   border: '2px solid',
                   color: color.wine,
-                  fontSize: '1.1rem',
+                  fontSize: '1.3rem',
                 },
               }}
               disableNavigation
@@ -80,9 +82,10 @@ function CalendarCard() {
               }}
               formatters={{ formatCaption }}
             />
-          </S.CalendarContainer>
-        </CS.CommonSubSubTitle>
+          </S.CalendarBody>
+        </S.CalendarContainer>
       </CS.CommonBody>
+      <CS.CommonMargin margin="30px" />
     </CS.CommonContainer>
   );
 }

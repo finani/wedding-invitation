@@ -193,10 +193,12 @@ function MapCard() {
         <CS.CommonSubTitle>일반버스 이용시</CS.CommonSubTitle>
         <CS.CommonTextContainer>
           <CS.CommonP>
-            - 지선 버스: 5536, 5615, 5616<br></br>- 디지털단지 방향<br></br>
-            지하이시티 ,G밸리 보건지소<br></br>- 구로남초등학교 방향<br></br>
-            하이엔드 1차, G밸리 보건지소<br></br>- 마을 버스: 금천07 - 지타워
-            하차
+            - 지선 버스: 5536, 5615, 5616<br></br>&nbsp;&nbsp;&nbsp;- 탑승 방향:
+            디지털단지 방향<br></br>
+            &nbsp;&nbsp;&nbsp;- 하차 위치: 지하이시티 ,G밸리 보건지소<br></br>
+            <br></br>&nbsp;&nbsp;&nbsp;- 탑승 방향: 구로남초등학교 방향<br></br>
+            &nbsp;&nbsp;&nbsp;- 하차 위치: 하이엔드 1차, G밸리 보건지소<br></br>
+            <br></br>- 마을 버스: 금천07 - 지타워 하차
           </CS.CommonP>
         </CS.CommonTextContainer>
         <CS.CommonMargin margin="30px" />

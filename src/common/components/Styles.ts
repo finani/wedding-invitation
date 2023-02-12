@@ -39,7 +39,7 @@ export const CommonSubTitle = styled.h4`
 `;
 
 export const CommonSubTitleLong = styled.h4`
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: center;
 `;
 
