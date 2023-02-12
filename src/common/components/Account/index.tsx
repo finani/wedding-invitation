@@ -15,7 +15,7 @@ function Account() {
                 <td colSpan={2}>
                   <CS.CommonSubSubTitle>신랑 위인환</CS.CommonSubSubTitle>
                 </td>
-                <td colSpan={2} style={{ paddingLeft: '60px' }}>
+                <td colSpan={2} style={{ paddingLeft: '30px' }}>
                   <CS.CommonSubSubTitle>신부 김채윤</CS.CommonSubSubTitle>
                 </td>
               </tr>
@@ -43,7 +43,7 @@ function Account() {
                     </a>
                   </CS.ImageContainer>
                 </td>
-                <td style={{ padding: '0px 0px 7px 60px' }}>
+                <td style={{ padding: '0px 0px 7px 30px' }}>
                   <Modal
                     btnTitle="계좌번호"
                     bank="신한은행"
@@ -71,7 +71,7 @@ function Account() {
                 <td colSpan={2}>
                   <CS.CommonSubSubTitle>아버님 위희량</CS.CommonSubSubTitle>
                 </td>
-                <td colSpan={2} style={{ paddingLeft: '60px' }}>
+                <td colSpan={2} style={{ paddingLeft: '30px' }}>
                   <CS.CommonSubSubTitle>아버님 김태우</CS.CommonSubSubTitle>
                 </td>
               </tr>
@@ -99,7 +99,7 @@ function Account() {
                     </a>
                   </CS.ImageContainer>
                 </td>
-                <td style={{ padding: '0px 0px 7px 60px' }}>
+                <td style={{ padding: '0px 0px 7px 30px' }}>
                   <Modal
                     btnTitle="계좌번호"
                     bank="-" // TODO
