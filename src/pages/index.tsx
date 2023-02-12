@@ -5,6 +5,7 @@ import {
   CalendarCard,
   Contact,
   FloatingShare,
+  FlowerCard,
   Footer,
   Gallery,
   GuestBook,
@@ -30,6 +31,7 @@ function Home() {
       <CalendarCard />
       <MapCard />
       {showAccount && <Account />}
+      <FlowerCard />
       <GuestBook />
       <Footer />
       <FloatingShare />

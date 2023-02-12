@@ -2,6 +2,7 @@ export { default as Account } from './Account';
 export { default as CalendarCard } from './CalendarCard';
 export { default as Contact } from './Contact';
 export { default as FloatingShare } from './FloatingShare';
+export { default as FlowerCard } from './FlowerCard';
 export { default as Footer } from './Footer';
 export { default as Gallery } from './Gallery';
 export { default as GuestBook } from './GuestBook';

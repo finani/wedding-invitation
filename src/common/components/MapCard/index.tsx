@@ -194,18 +194,18 @@ function MapCard() {
             <br></br>
             셔틀버스는 <b>15분 간격</b>으로 운행됩니다<br></br>
             <br></br>
+            <b>- 2호선 구로디지털단지역</b>
+            <br></br>&nbsp;&nbsp;&nbsp;4번 출구 나와서 약 100M 직진 후 셔틀 버스
+            탑승<br></br>
+            <br></br>
             <b>- 1호선&7호선 가산디지털단지역</b>
             <br></br>&nbsp;&nbsp;&nbsp;공용 4번 출구 나와서 국민은행 앞에서 탑승
             <br></br>
-            <br></br>&nbsp;&nbsp;&nbsp;<b>- 1호선 1번 출구로 나오는 경우</b>
+            <br></br>&nbsp;&nbsp;&nbsp;<b>≈ 1호선 1번 출구로 나오는 경우</b>
             <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;나온 방향으로 120M 직진
             후,<br></br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4번 출구 앞 횡단보도 이용하여
             건너서 탑승<br></br>
-            <br></br>
-            <b>- 2호선 구로디지털단지역</b>
-            <br></br>&nbsp;&nbsp;&nbsp;4번 출구 나와서 약 100M 직진 후 셔틀 버스
-            탑승<br></br>
           </CS.CommonP>
         </CS.CommonTextContainer>
         <CS.CommonMargin margin="30px" />
