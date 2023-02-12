@@ -4,7 +4,7 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 import * as CS from 'src/common/components/Styles';
 
 function Gallery() {
-  const images = [
+  const images = [ // TODO: 이미지 높이 모두 같게 투명 패딩 넣기
     {
       original: '/images/mobile/SYD_0013.jpg',
       thumbnail: '/images/mobile/SYD_0013.jpg',

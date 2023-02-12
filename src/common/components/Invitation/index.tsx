@@ -25,14 +25,14 @@ function Invitation() {
         <CS.CommonTable>
           <tbody>
             <tr>
-              <td>위희량, 조단자의</td>
-              <td>아들</td>
-              <td style={{ padding: '0px 0px 0px 10px' }}>위인환</td>
+              <td>위희량, 조단자의</td> {/* TODO: 성, 이름만 bold */}
+              <td style={{ padding: '0px 0px 0px 10px' }}>아들</td> {/* TODO: 붓 배경 */}
+              <td style={{ padding: '0px 0px 0px 10px' }}>인환</td> {/* TODO: 이름 bold */}
             </tr>
             <tr>
-              <td>김태우, 박소연의</td>
-              <td>딸</td>
-              <td style={{ padding: '0px 0px 0px 10px' }}>김채윤</td>
+              <td>김태우, 박소연의</td> {/* TODO: 성, 이름만 bold */}
+              <td style={{ padding: '0px 0px 0px 10px' }}>딸</td> {/* TODO: 붓 배경 */}
+              <td style={{ padding: '0px 0px 0px 10px' }}>채윤</td> {/* TODO: 이름 bold */}
             </tr>
           </tbody>
         </CS.CommonTable>

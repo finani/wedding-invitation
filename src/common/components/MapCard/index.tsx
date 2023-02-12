@@ -186,17 +186,19 @@ function MapCard() {
             </tr>
           </tbody>
         </CS.CommonTable>
-        <S.MapTextContainer>
+        <CS.CommonTextContainer>
           <CS.CommonP>
-            [예식장 주소]{' '}
-            <a onClick={copyToClipboard}>서울 구로구 디지털로26길 38</a>
-            <br></br>
-            [전화번호] <a href="tel:02-432-9000">02-432-9000</a>
+            <b>
+              [예식장 주소]{' '}
+              <a onClick={copyToClipboard}>서울 구로구 디지털로26길 38</a>
+              <br></br>
+              [전화번호] <a href="tel:02-432-9000">02-432-9000</a>
+            </b>
           </CS.CommonP>
-        </S.MapTextContainer>
+        </CS.CommonTextContainer>
         <CS.CommonMargin margin="50px" />
         <CS.CommonSubTitle>지하철 및 셔틀버스 이용시</CS.CommonSubTitle>
-        <S.MapTextContainer>
+        <CS.CommonTextContainer>
           <CS.CommonP>
             - 1호선&7호선 가산디지털단지역<br></br>
             공용4번 출구 나와서 국민은행 앞에서 탑승<br></br>
@@ -206,20 +208,20 @@ function MapCard() {
             4번 출구 나와서 약 100M 직진 후 탑승<br></br>
             <br></br>- 셔틀버스는 15분 간격으로 운행됩니다
           </CS.CommonP>
-        </S.MapTextContainer>
+        </CS.CommonTextContainer>
         <CS.CommonMargin margin="30px" />
         <CS.CommonSubTitle>일반버스 이용시</CS.CommonSubTitle>
-        <S.MapTextContainer>
+        <CS.CommonTextContainer>
           <CS.CommonP>
             - 지선 버스: 5536, 5615, 5616<br></br>- 디지털단지 방향<br></br>
             지하이시티 ,G밸리 보건지소<br></br>- 구로남초등학교 방향<br></br>
             하이엔드 1차, G밸리 보건지소<br></br>- 마을 버스: 금천07 - 지타워
             하차
           </CS.CommonP>
-        </S.MapTextContainer>
+        </CS.CommonTextContainer>
         <CS.CommonMargin margin="30px" />
         <CS.CommonSubTitle>자가용 이용시</CS.CommonSubTitle>
-        <S.MapTextContainer>
+        <CS.CommonTextContainer>
           <CS.CommonP>
             - 동시 1400대 주차 가능<br></br>- 2시간 무료주차 / 10분당 700원
             <br></br>- 네비게이션 검색 주소<br></br>- 서울시 구로구 디지털로
@@ -267,7 +269,7 @@ function MapCard() {
               </tr>
             </tbody>
           </CS.CommonTable>
-        </S.MapTextContainer>
+        </CS.CommonTextContainer>
         <CS.CommonMargin margin="50px" />
       </CS.CommonBody>
     </CS.CommonContainer>

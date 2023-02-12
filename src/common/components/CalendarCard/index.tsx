@@ -43,18 +43,18 @@ function CalendarCard() {
   const diffDays = Math.round(
     Math.abs((weddingDate.getTime() - today.getTime()) / oneDay),
   );
-  const footer = (
-    <CS.CommonP>
-      2023년 4월 8일 오전 11시<br></br>
-      <a>인환 ❤ 채윤</a> 결혼식이 <a>{diffDays} 일</a> 남았습니다.
-    </CS.CommonP>
-  );
 
   return (
     <CS.CommonContainer>
       <CS.HorizontalBar />
       <CS.CommonMargin margin='40px' />
       <CS.CommonTitle>Calendar</CS.CommonTitle>
+      <CS.CommonTextContainer>
+        <CS.CommonSubTitle>2023년 4월 8일 오전 11시</CS.CommonSubTitle>
+        <CS.CommonSubTitle>
+          <a>인환 ❤ 채윤</a> 결혼식이 <a>{diffDays} 일</a> 남았습니다.
+        </CS.CommonSubTitle>
+      </CS.CommonTextContainer>
       <CS.CommonSubSubTitle>
         <S.CalendarContainer>
           <DayPicker
@@ -76,7 +76,6 @@ function CalendarCard() {
               tfoot: { textAlign: 'center' },
             }}
             formatters={{ formatCaption }}
-            footer={footer}
           />
         </S.CalendarContainer>
       </CS.CommonSubSubTitle>
