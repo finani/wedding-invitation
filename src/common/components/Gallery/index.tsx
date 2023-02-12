@@ -73,14 +73,6 @@ function Gallery() {
       original: '/images/studio/SYD_0740_padding.png',
       thumbnail: '/images/studio/SYD_0740_padding.png',
     },
-    {
-      original: '/images/daily/1637499857042-3_padding.png',
-      thumbnail: '/images/daily/1637499857042-3_padding.png',
-    },
-    {
-      original: '/images/daily/IMG_0823_padding.png',
-      thumbnail: '/images/daily/IMG_0823_padding.png',
-    },
   ];
 
   return (
