@@ -9,9 +9,8 @@ function Invitation() {
       <CS.CommonTitle>이제 서로, 평생 함께</CS.CommonTitle>
       <CS.CommonBody>
         <S.InvitationBody>
-          작은 인연에서 시작된<br></br>
-          저희의 소중한 사랑이<br></br>
-          아름다운 결실이 되어,<br></br>
+          작은 인연에서 시작된 소중한 사랑이<br></br>
+          마침내 아름다운 결실이 되어,<br></br>
           저희 두 사람이 하나가 될<br></br>뜻 깊은 날을 맞게 되었습니다.
           <br></br>
           <br></br>
