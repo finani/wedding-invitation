@@ -38,6 +38,11 @@ export const CommonSubTitle = styled.h4`
   line-height: 0rem;
 `;
 
+export const CommonSubTitleLong = styled.h4`
+  font-size: 1.1rem;
+  text-align: center;
+`;
+
 export const CommonSubSubTitle = styled.h4`
   font-size: 0.8rem;
   text-align: center;

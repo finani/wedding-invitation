@@ -49,36 +49,38 @@ function CalendarCard() {
       <CS.HorizontalBar />
       <CS.CommonMargin margin='40px' />
       <CS.CommonTitle>Calendar</CS.CommonTitle>
-      <CS.CommonTextContainer>
-        <CS.CommonSubTitle>2023년 4월 8일 오전 11시</CS.CommonSubTitle>
-        <CS.CommonSubTitle>
-          <a>인환 ❤ 채윤</a> 결혼식이 <a>{diffDays} 일</a> 남았습니다.
-        </CS.CommonSubTitle>
-      </CS.CommonTextContainer>
-      <CS.CommonSubSubTitle>
-        <S.CalendarContainer>
-          <DayPicker
-            mode="single"
-            defaultMonth={weddingDate}
-            modifiers={{ booked: weddingDate }}
-            modifiersStyles={{
-              booked: {
-                border: '2px solid',
-                color: color.wine,
-                fontSize: '1.1rem',
-              },
-            }}
-            disableNavigation
-            showOutsideDays
-            locale={ko}
-            styles={{
-              caption: { color: color.wine },
-              tfoot: { textAlign: 'center' },
-            }}
-            formatters={{ formatCaption }}
-          />
-        </S.CalendarContainer>
-      </CS.CommonSubSubTitle>
+      <CS.CommonBody>
+        <CS.CommonTextContainer>
+          <CS.CommonSubTitleLong>2023년 4월 8일 오전 11시</CS.CommonSubTitleLong>
+          <CS.CommonSubTitleLong>
+            <a>인환 ❤ 채윤</a> 결혼식이 <a>{diffDays} 일</a> 남았습니다.
+          </CS.CommonSubTitleLong>
+        </CS.CommonTextContainer>
+        <CS.CommonSubSubTitle>
+          <S.CalendarContainer>
+            <DayPicker
+              mode="single"
+              defaultMonth={weddingDate}
+              modifiers={{ booked: weddingDate }}
+              modifiersStyles={{
+                booked: {
+                  border: '2px solid',
+                  color: color.wine,
+                  fontSize: '1.1rem',
+                },
+              }}
+              disableNavigation
+              showOutsideDays
+              locale={ko}
+              styles={{
+                caption: { color: color.wine },
+                tfoot: { textAlign: 'center' },
+              }}
+              formatters={{ formatCaption }}
+            />
+          </S.CalendarContainer>
+        </CS.CommonSubSubTitle>
+      </CS.CommonBody>
     </CS.CommonContainer>
   );
 }

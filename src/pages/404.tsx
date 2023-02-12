@@ -11,7 +11,7 @@ function Custom404() {
         <Link href="/">
           <CS.MainImg src="/images/mobile/SYD_0140.jpg" alt="Page Not Found" style={{cursor: 'pointer'}}/>
         </Link>
-        <CS.CommonSubTitle>사진을 누르면 뒤로 돌아가져요 ~ ❤</CS.CommonSubTitle>
+        <CS.CommonSubTitleLong>사진을 누르면 뒤로 돌아가져요 ~ ❤</CS.CommonSubTitleLong>
       </CS.CommonBody>
     </CS.CommonContainer>
   );
