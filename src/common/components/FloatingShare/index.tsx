@@ -4,6 +4,7 @@ import * as CS from 'src/common/components/Styles';
 import * as S from './Styles';
 import CircleIcon from '../CircleIcon';
 import { color } from 'src/common/utils/styles';
+import copyToClipboard from 'src/common/utils';
 
 const shareKakao = () => {
   window.Kakao.Share.sendDefault({
@@ -37,32 +38,6 @@ const shareKakao = () => {
   });
 };
 
-const copyToClipboard = () => {
-  if (!document.queryCommandSupported('copy')) {
-    return alert('복사 기능이 지원되지 않는 브라우저입니다.');
-  }
-
-  const linkAddress = 'https://wedding-invitation-hazel.vercel.app?showAccount=true';
-  const el = document.createElement('textarea');
-  el.value = linkAddress;
-  el.setAttribute('readonly', '');
-  el.style.position = 'absolute';
-  el.style.left = '-9999px';
-  document.body.appendChild(el);
-  const selected =
-    document.getSelection()?.rangeCount! > 0
-      ? document.getSelection()?.getRangeAt(0)
-      : false;
-  el.select();
-  document.execCommand('copy');
-  document.body.removeChild(el);
-  if (selected) {
-    document.getSelection()?.removeAllRanges();
-    document.getSelection()?.addRange(selected);
-  }
-  alert('주소가 복사되었습니다.\n( ' + linkAddress + ' )');
-};
-
 function FloatingShare() {
   return (
     <S.FloatingShareContainer>
@@ -72,7 +47,7 @@ function FloatingShare() {
           alt="kakao talk"
         />
       </CS.ImageContainer>
-      <div onClick={copyToClipboard} style={{ margin: '0px 0px 0px 4px' }}>
+      <div onClick={()=>{copyToClipboard('서울 구로구 디지털로26길 38 지타워몰 2층');}} style={{ margin: '0px 0px 0px 4px' }}>
         <CircleIcon
           Icon={LinkIcon}
           circleSize="40px"
