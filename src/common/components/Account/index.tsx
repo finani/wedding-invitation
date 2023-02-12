@@ -13,10 +13,10 @@ function Account() {
             <tbody>
               <tr>
                 <td colSpan={2}>
-                  <CS.CommonSubSubTitle>신랑 위인환</CS.CommonSubSubTitle>
+                  <CS.CommonSubSubTitle>신랑 <b>위인환</b></CS.CommonSubSubTitle>
                 </td>
                 <td colSpan={2} style={{ paddingLeft: '30px' }}>
-                  <CS.CommonSubSubTitle>신부 김채윤</CS.CommonSubSubTitle>
+                  <CS.CommonSubSubTitle>신부 <b>김채윤</b></CS.CommonSubSubTitle>
                 </td>
               </tr>
               <tr>
@@ -69,10 +69,10 @@ function Account() {
               </tr>
               <tr>
                 <td colSpan={2}>
-                  <CS.CommonSubSubTitle>아버님 위희량</CS.CommonSubSubTitle>
+                  <CS.CommonSubSubTitle>아버님 <b>위희량</b></CS.CommonSubSubTitle>
                 </td>
                 <td colSpan={2} style={{ paddingLeft: '30px' }}>
-                  <CS.CommonSubSubTitle>아버님 김태우</CS.CommonSubSubTitle>
+                  <CS.CommonSubSubTitle>아버님 <b>김태우</b></CS.CommonSubSubTitle>
                 </td>
               </tr>
               <tr>
@@ -127,7 +127,7 @@ function Account() {
           </CS.CommonTable>
         </CS.CommonTextContainer>
       </CS.CommonBody>
-      <CS.CommonMargin margin="40px" />
+      <CS.CommonMargin margin="50px" />
     </CS.CommonContainer>
   );
 }

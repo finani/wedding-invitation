@@ -70,10 +70,10 @@ function Contact() {
             </tr>
             <tr>
               <td colSpan={2}>
-                <CS.CommonSubSubTitle>아버님 위희량</CS.CommonSubSubTitle> {/* TODO: 성, 이름만 bold */}
+                <CS.CommonSubSubTitle>아버님 <b>위희량</b></CS.CommonSubSubTitle>
               </td>
               <td colSpan={2} style={{ padding: '0px 0px 0px 60px' }}>
-                <CS.CommonSubSubTitle>아버님 김태우</CS.CommonSubSubTitle> {/* TODO: 성, 이름만 bold */}
+                <CS.CommonSubSubTitle>아버님 <b>김태우</b></CS.CommonSubSubTitle>
               </td>
             </tr>
             <tr>
@@ -100,10 +100,10 @@ function Contact() {
             </tr>
             <tr>
               <td colSpan={2}>
-                <CS.CommonSubSubTitle>어머님 조단자</CS.CommonSubSubTitle> {/* TODO: 성, 이름만 bold */}
+                <CS.CommonSubSubTitle>어머님 <b>조단자</b></CS.CommonSubSubTitle>
               </td>
               <td colSpan={2} style={{ padding: '0px 0px 0px 60px' }}>
-                <CS.CommonSubSubTitle>어머님 박소연</CS.CommonSubSubTitle> {/* TODO: 성, 이름만 bold */}
+                <CS.CommonSubSubTitle>어머님 <b>박소연</b></CS.CommonSubSubTitle>
               </td>
             </tr>
             <tr>

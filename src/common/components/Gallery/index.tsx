@@ -4,26 +4,26 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 import * as CS from 'src/common/components/Styles';
 
 function Gallery() {
-  const images = [ // TODO: 이미지 높이 모두 같게 투명 패딩 넣기
+  const images = [
     {
-      original: '/images/mobile/SYD_0013.jpg',
-      thumbnail: '/images/mobile/SYD_0013.jpg',
+      original: '/images/mobile/SYD_0013_padding.png',
+      thumbnail: '/images/mobile/SYD_0013_padding.png',
     },
     {
-      original: '/images/mobile/SYD_0056.jpg',
-      thumbnail: '/images/mobile/SYD_0056.jpg',
+      original: '/images/mobile/SYD_0056_padding.png',
+      thumbnail: '/images/mobile/SYD_0056_padding.png',
     },
     {
       original: '/images/mobile/SYD_0140.jpg',
       thumbnail: '/images/mobile/SYD_0140.jpg',
     },
     {
-      original: '/images/mobile/SYD_0237.jpg',
-      thumbnail: '/images/mobile/SYD_0237.jpg',
+      original: '/images/mobile/SYD_0237_padding.png',
+      thumbnail: '/images/mobile/SYD_0237_padding.png',
     },
     {
-      original: '/images/mobile/SYD_0270.jpg',
-      thumbnail: '/images/mobile/SYD_0270.jpg',
+      original: '/images/mobile/SYD_0270_padding.png',
+      thumbnail: '/images/mobile/SYD_0270_padding.png',
     },
     {
       original: '/images/studio/SYD_0305.jpg',
@@ -38,12 +38,12 @@ function Gallery() {
       thumbnail: '/images/mobile/SYD_0357.jpg',
     },
     {
-      original: '/images/studio/SYD_0487.jpg',
-      thumbnail: '/images/studio/SYD_0487.jpg',
+      original: '/images/studio/SYD_0487_padding.png',
+      thumbnail: '/images/studio/SYD_0487_padding.png',
     },
     {
-      original: '/images/studio/SYD_0490.jpg',
-      thumbnail: '/images/studio/SYD_0490.jpg',
+      original: '/images/studio/SYD_0490_padding.png',
+      thumbnail: '/images/studio/SYD_0490_padding.png',
     },
     {
       original: '/images/mobile/SYD_0508.jpg',
@@ -66,20 +66,20 @@ function Gallery() {
       thumbnail: '/images/studio/SYD_0613.jpg',
     },
     {
-      original: '/images/studio/SYD_0729.jpg',
-      thumbnail: '/images/studio/SYD_0729.jpg',
+      original: '/images/studio/SYD_0729_padding.png',
+      thumbnail: '/images/studio/SYD_0729_padding.png',
     },
     {
-      original: '/images/studio/SYD_0740.jpg',
-      thumbnail: '/images/studio/SYD_0740.jpg',
+      original: '/images/studio/SYD_0740_padding.png',
+      thumbnail: '/images/studio/SYD_0740_padding.png',
     },
     {
-      original: '/images/daily/1637499857042-3.jpg',
-      thumbnail: '/images/daily/1637499857042-3.jpg',
+      original: '/images/daily/1637499857042-3_padding.png',
+      thumbnail: '/images/daily/1637499857042-3_padding.png',
     },
     {
-      original: '/images/daily/IMG_0823.jpg',
-      thumbnail: '/images/daily/IMG_0823.jpg',
+      original: '/images/daily/IMG_0823_padding.png',
+      thumbnail: '/images/daily/IMG_0823_padding.png',
     },
   ];
 
