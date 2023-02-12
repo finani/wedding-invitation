@@ -12,66 +12,68 @@ function MapCard() {
   const lon = 126.8953833;
 
   useEffect(() => {
-    const center = new naver.maps.LatLng(lat, lon);
-    mapRef.current = new naver.maps.Map('map', {
-      center: center,
-      disableDoubleClickZoom: false,
-      disableDoubleTapZoom: false,
-      disableTwoFingerTapZoom: false,
-      draggable: false,
-      keyboardShortcuts: false,
-      pinchZoom: false,
-      scrollWheel: false,
-      zoom: 13,
-      zoomControl: true,
-      zoomControlOptions: {
-        position: naver.maps.Position.LEFT_CENTER,
-      },
-      zoomOrigin: center,
-    });
+    if (typeof naver !== 'undefined') {
+      const center = new naver.maps.LatLng(lat, lon);
+      mapRef.current = new naver.maps.Map('map', {
+        center: center,
+        disableDoubleClickZoom: false,
+        disableDoubleTapZoom: false,
+        disableTwoFingerTapZoom: false,
+        draggable: false,
+        keyboardShortcuts: false,
+        pinchZoom: false,
+        scrollWheel: false,
+        zoom: 13,
+        zoomControl: true,
+        zoomControlOptions: {
+          position: naver.maps.Position.LEFT_CENTER,
+        },
+        zoomOrigin: center,
+      });
 
-    const marker = new naver.maps.Marker({
-      position: new naver.maps.LatLng(lat, lon),
-      map: mapRef.current,
-      animation: naver.maps.Animation.BOUNCE,
-    });
+      const marker = new naver.maps.Marker({
+        position: new naver.maps.LatLng(lat, lon),
+        map: mapRef.current,
+        animation: naver.maps.Animation.BOUNCE,
+      });
 
-    const contentHtml = [
-      '<div style="padding:0px 10px 5px 10px;">',
-      '<a title="지타워 컨벤션" href="https://m.place.naver.com/share?id=1090437805" target="_blank" rel="noopener noreferrer">' +
-        '<h4 style="text-align:center;">지타워 컨벤션</h4></a>',
-      '<a title="지타워 컨벤션" href="https://m.place.naver.com/share?id=1090437805" target="_blank" rel="noopener noreferrer">' +
-        '<img src="https://ldb-phinf.pstatic.net/20211027_73/1635312757019eR6q1_JPEG/0rQFPGvbVjAbWhGRh3OeTI69.jpeg.jpg"' +
-        'style="width: 40vw; max-width: 150px;" /></a>',
-      '</div>',
-    ].join('');
+      const contentHtml = [
+        '<div style="padding:0px 10px 5px 10px;">',
+        '<a title="지타워 컨벤션" href="https://m.place.naver.com/share?id=1090437805" target="_blank" rel="noopener noreferrer">' +
+          '<h4 style="text-align:center;">지타워 컨벤션</h4></a>',
+        '<a title="지타워 컨벤션" href="https://m.place.naver.com/share?id=1090437805" target="_blank" rel="noopener noreferrer">' +
+          '<img src="https://ldb-phinf.pstatic.net/20211027_73/1635312757019eR6q1_JPEG/0rQFPGvbVjAbWhGRh3OeTI69.jpeg.jpg"' +
+          'style="width: 40vw; max-width: 150px;" /></a>',
+        '</div>',
+      ].join('');
 
-    const mapElement = document.getElementById('map');
-    const mapElementWidth =
-      mapElement?.offsetWidth === undefined ? 0 : mapElement.offsetWidth;
-    const mapElementHeight =
-      mapElement?.offsetHeight === undefined ? 0 : mapElement.offsetHeight;
+      const mapElement = document.getElementById('map');
+      const mapElementWidth =
+        mapElement?.offsetWidth === undefined ? 0 : mapElement.offsetWidth;
+      const mapElementHeight =
+        mapElement?.offsetHeight === undefined ? 0 : mapElement.offsetHeight;
 
-    const offsetX = mapElementWidth * 0.15;
-    const offsetY = mapElementHeight * -0.15;
-    const wineShopInfoWindow = new naver.maps.InfoWindow({
-      content: contentHtml,
-      anchorSkew: true,
-      pixelOffset: new naver.maps.Point(offsetX, offsetY),
-    });
+      const offsetX = mapElementWidth * 0.15;
+      const offsetY = mapElementHeight * -0.15;
+      const wineShopInfoWindow = new naver.maps.InfoWindow({
+        content: contentHtml,
+        anchorSkew: true,
+        pixelOffset: new naver.maps.Point(offsetX, offsetY),
+      });
 
-    const listener = naver.maps.Event.addListener(
-      marker,
-      'click',
-      function (e) {
-        if (wineShopInfoWindow.getMap()) {
-          wineShopInfoWindow.close();
-          mapRef.current.setCenter(center);
-        } else {
-          wineShopInfoWindow.open(mapRef.current, marker);
-        }
-      },
-    );
+      const listener = naver.maps.Event.addListener(
+        marker,
+        'click',
+        function (e) {
+          if (wineShopInfoWindow.getMap()) {
+            wineShopInfoWindow.close();
+            mapRef.current.setCenter(center);
+          } else {
+            wineShopInfoWindow.open(mapRef.current, marker);
+          }
+        },
+      );
+    }
   }, []);
 
   const navigateNaverMap = () => {
