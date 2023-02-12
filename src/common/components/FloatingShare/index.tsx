@@ -42,7 +42,7 @@ const copyToClipboard = () => {
     return alert('복사 기능이 지원되지 않는 브라우저입니다.');
   }
 
-  const linkAddress = 'https://wedding-invitation-hazel.vercel.app';
+  const linkAddress = 'https://wedding-invitation-hazel.vercel.app?showAccount=true';
   const el = document.createElement('textarea');
   el.value = linkAddress;
   el.setAttribute('readonly', '');
