@@ -46,16 +46,16 @@ function Account() {
                 <td style={{ padding: '0px 0px 7px 60px' }}>
                   <Modal
                     btnTitle="계좌번호"
-                    bank="-" // TODO
-                    account="-" // TODO
+                    bank="신한은행"
+                    account="110-178-858494"
                     name="김채윤"
-                    copyString="-" // TODO
+                    copyString="110178858494"
                   ></Modal>
                 </td>
                 <td>
                   <CS.ImageContainer width="50px">
                     <a
-                      href="-" // TODO
+                      href="https://qr.kakaopay.com/Ej8yekM9S"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
