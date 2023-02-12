@@ -5,7 +5,7 @@ function Invitation() {
   return (
     <CS.CommonContainer>
       <CS.HorizontalBar />
-      <CS.CommonMargin margin='40px' />
+      <CS.CommonMargin margin="40px" />
       <CS.CommonTitle>이제 서로, 평생 함께</CS.CommonTitle>
       <CS.CommonBody>
         <S.InvitationBody>
@@ -25,14 +25,24 @@ function Invitation() {
         <CS.CommonTable>
           <tbody>
             <tr>
-              <td><b>위희량, 조단자</b>의</td>
-              <td style={{ padding: '0px 0px 0px 10px' }}>아들</td> {/* TODO: 붓 배경 */}
-              <td style={{ padding: '0px 0px 0px 10px' }}><b>인환</b></td>
+              <td>
+                <b>위희량, 조단자</b>의
+              </td>
+              <td style={{ padding: '0px 0px 0px 10px' }}>아들</td>{' '}
+              {/* TODO: 붓 배경 */}
+              <td style={{ padding: '0px 0px 0px 10px' }}>
+                <b>인환</b>
+              </td>
             </tr>
             <tr>
-              <td><b>김태우, 박소연</b>의</td>
-              <td style={{ padding: '0px 0px 0px 10px' }}>딸</td> {/* TODO: 붓 배경 */}
-              <td style={{ padding: '0px 0px 0px 10px' }}><b>채윤</b></td>
+              <td>
+                <b>김태우, 박소연</b>의
+              </td>
+              <td style={{ padding: '0px 0px 0px 10px' }}>딸</td>{' '}
+              {/* TODO: 붓 배경 */}
+              <td style={{ padding: '0px 0px 0px 10px' }}>
+                <b>채윤</b>
+              </td>
             </tr>
           </tbody>
         </CS.CommonTable>

@@ -5,7 +5,7 @@ function Account() {
   return (
     <CS.CommonContainer>
       <CS.HorizontalBar />
-      <CS.CommonMargin margin='40px' />
+      <CS.CommonMargin margin="40px" />
       <CS.CommonTitle>마음 전하실 곳</CS.CommonTitle>
       <CS.CommonBody>
         <CS.CommonTextContainer>
@@ -13,10 +13,14 @@ function Account() {
             <tbody>
               <tr>
                 <td colSpan={2}>
-                  <CS.CommonSubSubTitle>신랑 <b>위인환</b></CS.CommonSubSubTitle>
+                  <CS.CommonSubSubTitle>
+                    신랑 <b>위인환</b>
+                  </CS.CommonSubSubTitle>
                 </td>
                 <td colSpan={2} style={{ paddingLeft: '30px' }}>
-                  <CS.CommonSubSubTitle>신부 <b>김채윤</b></CS.CommonSubSubTitle>
+                  <CS.CommonSubSubTitle>
+                    신부 <b>김채윤</b>
+                  </CS.CommonSubSubTitle>
                 </td>
               </tr>
               <tr>
@@ -69,10 +73,14 @@ function Account() {
               </tr>
               <tr>
                 <td colSpan={2}>
-                  <CS.CommonSubSubTitle>아버님 <b>위희량</b></CS.CommonSubSubTitle>
+                  <CS.CommonSubSubTitle>
+                    아버님 <b>위희량</b>
+                  </CS.CommonSubSubTitle>
                 </td>
                 <td colSpan={2} style={{ paddingLeft: '30px' }}>
-                  <CS.CommonSubSubTitle>아버님 <b>김태우</b></CS.CommonSubSubTitle>
+                  <CS.CommonSubSubTitle>
+                    아버님 <b>김태우</b>
+                  </CS.CommonSubSubTitle>
                 </td>
               </tr>
               <tr>

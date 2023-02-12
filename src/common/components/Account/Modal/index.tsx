@@ -29,7 +29,13 @@ function Modal({ btnTitle, bank, account, name, copyString }: ModalState) {
             <S.ModalBody>{bank}</S.ModalBody>
             <S.ModalBody>{account}</S.ModalBody>
             <S.ModalBody>{name}</S.ModalBody>
-            <S.ModalBtn onClick={()=>{copyToClipboard(copyString);}}>복사하기</S.ModalBtn>
+            <S.ModalBtn
+              onClick={() => {
+                copyToClipboard(copyString);
+              }}
+            >
+              복사하기
+            </S.ModalBtn>
           </S.ModalView>
         </S.ModalBackdrop>
       ) : null}

@@ -47,11 +47,13 @@ function CalendarCard() {
   return (
     <CS.CommonContainer>
       <CS.HorizontalBar />
-      <CS.CommonMargin margin='40px' />
+      <CS.CommonMargin margin="40px" />
       <CS.CommonTitle>Calendar</CS.CommonTitle>
       <CS.CommonBody>
         <CS.CommonTextContainer>
-          <CS.CommonSubTitleLong>2023년 4월 8일 오전 11시</CS.CommonSubTitleLong>
+          <CS.CommonSubTitleLong>
+            2023년 4월 8일 오전 11시
+          </CS.CommonSubTitleLong>
           <CS.CommonSubTitleLong>
             <a>인환 ❤ 채윤</a> 결혼식이 <a>{diffDays} 일</a> 남았습니다.
           </CS.CommonSubTitleLong>

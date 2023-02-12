@@ -47,7 +47,12 @@ function FloatingShare() {
           alt="kakao talk"
         />
       </CS.ImageContainer>
-      <div onClick={()=>{copyToClipboard('서울 구로구 디지털로26길 38 지타워몰 2층');}} style={{ margin: '0px 0px 0px 4px' }}>
+      <div
+        onClick={() => {
+          copyToClipboard('서울 구로구 디지털로26길 38 지타워몰 2층');
+        }}
+        style={{ margin: '0px 0px 0px 4px' }}
+      >
         <CircleIcon
           Icon={LinkIcon}
           circleSize="40px"

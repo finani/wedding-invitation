@@ -78,7 +78,7 @@ function Gallery() {
   return (
     <CS.CommonContainer>
       <CS.HorizontalBar />
-      <CS.CommonMargin margin='40px' />
+      <CS.CommonMargin margin="40px" />
       <CS.CommonTitle>Gallery</CS.CommonTitle>
       <CS.CommonBody>
         <ReactImageGallery

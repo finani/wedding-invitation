@@ -102,7 +102,7 @@ function MapCard() {
   return (
     <CS.CommonContainer>
       <CS.HorizontalBar />
-      <CS.CommonMargin margin='40px' />
+      <CS.CommonMargin margin="40px" />
       <CS.CommonTitle>오시는 길</CS.CommonTitle>
       <CS.CommonBody>
         <S.MapContainer id="map" />
@@ -164,7 +164,13 @@ function MapCard() {
           <CS.CommonP>
             <b>
               [예식장 주소]{' '}
-              <a onClick={()=>{copyToClipboard('서울 구로구 디지털로 26길 38');}}>서울 구로구 디지털로 26길 38</a>
+              <a
+                onClick={() => {
+                  copyToClipboard('서울 구로구 디지털로 26길 38');
+                }}
+              >
+                서울 구로구 디지털로 26길 38
+              </a>
               <br></br>
               [전화번호] <a href="tel:02-432-9000">02-432-9000</a>
             </b>
@@ -197,9 +203,19 @@ function MapCard() {
         <CS.CommonSubTitle>자가용 이용시</CS.CommonSubTitle>
         <CS.CommonTextContainer>
           <CS.CommonP>
-            <b>[내비게이션 검색 주소]</b><br></br>- <a onClick={()=>{copyToClipboard('서울시 구로구 디지털로 26길 38 (지타워몰, 지타워 주차장)');}}>서울시 구로구 디지털로
-            26길 38 (지타워몰, 지타워 주차장)</a><br></br>- 디지털로 28길 도로 이용
-            진입<br></br>- 동시 1400대 주차 가능<br></br>- 2시간 무료주차 / 10분당 700원
+            <b>[내비게이션 검색 주소]</b>
+            <br></br>-{' '}
+            <a
+              onClick={() => {
+                copyToClipboard(
+                  '서울시 구로구 디지털로 26길 38 (지타워몰, 지타워 주차장)',
+                );
+              }}
+            >
+              서울시 구로구 디지털로 26길 38 (지타워몰, 지타워 주차장)
+            </a>
+            <br></br>- 디지털로 28길 도로 이용 진입<br></br>- 동시 1400대 주차
+            가능<br></br>- 2시간 무료주차 / 10분당 700원
           </CS.CommonP>
           <CS.CommonTable>
             <tbody>

@@ -48,32 +48,32 @@ function Contact() {
             </tbody>
           </CS.CommonTable>
         </CS.CommonTextContainer>
-        <CS.CommonMargin margin='50px' />
+        <CS.CommonMargin margin="50px" />
         <CS.CommonSubTitle>혼주에게 연락하기</CS.CommonSubTitle>
         <CS.CommonTable>
           <tbody>
             <tr>
               <td colSpan={2}>
                 <CS.CommonTextContainer>
-                  <CS.CommonSubSubTitle>
-                    신랑 측
-                  </CS.CommonSubSubTitle>
+                  <CS.CommonSubSubTitle>신랑 측</CS.CommonSubSubTitle>
                 </CS.CommonTextContainer>
               </td>
               <td colSpan={2} style={{ padding: '0px 0px 0px 60px' }}>
                 <CS.CommonTextContainer>
-                  <CS.CommonSubSubTitle>
-                    신부 측
-                  </CS.CommonSubSubTitle>
+                  <CS.CommonSubSubTitle>신부 측</CS.CommonSubSubTitle>
                 </CS.CommonTextContainer>
               </td>
             </tr>
             <tr>
               <td colSpan={2}>
-                <CS.CommonSubSubTitle>아버님 <b>위희량</b></CS.CommonSubSubTitle>
+                <CS.CommonSubSubTitle>
+                  아버님 <b>위희량</b>
+                </CS.CommonSubSubTitle>
               </td>
               <td colSpan={2} style={{ padding: '0px 0px 0px 60px' }}>
-                <CS.CommonSubSubTitle>아버님 <b>김태우</b></CS.CommonSubSubTitle>
+                <CS.CommonSubSubTitle>
+                  아버님 <b>김태우</b>
+                </CS.CommonSubSubTitle>
               </td>
             </tr>
             <tr>
@@ -100,10 +100,14 @@ function Contact() {
             </tr>
             <tr>
               <td colSpan={2}>
-                <CS.CommonSubSubTitle>어머님 <b>조단자</b></CS.CommonSubSubTitle>
+                <CS.CommonSubSubTitle>
+                  어머님 <b>조단자</b>
+                </CS.CommonSubSubTitle>
               </td>
               <td colSpan={2} style={{ padding: '0px 0px 0px 60px' }}>
-                <CS.CommonSubSubTitle>어머님 <b>박소연</b></CS.CommonSubSubTitle>
+                <CS.CommonSubSubTitle>
+                  어머님 <b>박소연</b>
+                </CS.CommonSubSubTitle>
               </td>
             </tr>
             <tr>

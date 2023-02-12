@@ -1,4 +1,3 @@
-
 const copyToClipboard = (copyString: string) => {
   if (!document.queryCommandSupported('copy')) {
     return alert('복사 기능이 지원되지 않는 브라우저입니다.');

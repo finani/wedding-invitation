@@ -62,7 +62,7 @@ function GuestBook() {
   return (
     <CS.CommonContainer>
       <CS.HorizontalBar />
-      <CS.CommonMargin margin='40px' />
+      <CS.CommonMargin margin="40px" />
       <CS.CommonTitle>GuestBook</CS.CommonTitle>
       <CS.CommonBody>
         <S.GuestBookPost>
