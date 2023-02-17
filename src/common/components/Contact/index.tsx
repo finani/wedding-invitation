@@ -6,7 +6,7 @@ import { color } from 'src/common/utils/styles';
 import CircleIcon from '../CircleIcon';
 
 function Contact() {
-  const defaultMessage = '결혼을 축하드립니다!';
+  const defaultMessage = '2023년 4월 8일 인환 ❤ 채윤 의 결혼식을 축하드립니다!';
 
   return (
     <CS.CommonContainer>
