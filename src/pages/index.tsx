@@ -34,7 +34,7 @@ function Home() {
       <FlowerCard />
       <GuestBook />
       <Footer />
-      <FloatingShare />
+      <FloatingShare showAccount={showAccount} />
     </>
   );
 }
