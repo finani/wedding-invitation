@@ -38,5 +38,6 @@ export const FlowerCardP = styled.p`
 export const FlowerCardTd = styled.td`
   width: 65%;
 
+  color: black;
   text-align: left;
 `;
