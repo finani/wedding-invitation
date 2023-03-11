@@ -2,6 +2,7 @@ import type { AppProps } from 'next/app';
 import getConfig from 'next/config';
 import { useEffect } from 'react';
 
+import { Analytics } from '@vercel/analytics/react';
 import { GlobalStyle } from 'styles/globalStyles';
 
 declare global {
@@ -21,6 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
+      <Analytics />
       <GlobalStyle />
     </>
   );
