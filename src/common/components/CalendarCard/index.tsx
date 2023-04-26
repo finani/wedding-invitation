@@ -43,8 +43,10 @@ function CalendarCard() {
 
   const oneDay = 24 * 60 * 60 * 1000;
   const diffDays = Math.round(
-    Math.abs((weddingDate.getTime() - today.getTime()) / oneDay),
+    (weddingDate.getTime() - today.getTime()) / oneDay,
   );
+  const absDiffDays = Math.abs(diffDays);
+  const commentLeftDays = diffDays > 0 ? '남았' : '지났';
 
   return (
     <CS.CommonContainer>
@@ -57,7 +59,7 @@ function CalendarCard() {
             2023년 4월 8일 오전 11시
           </CS.CommonSubTitleLong>
           <CS.CommonSubTitleLong>
-            <a>인환 ❤ 채윤</a> 결혼식이 <a>{diffDays} 일</a> 남았습니다.
+            <a>인환 ❤ 채윤</a> 결혼식이 <a>{absDiffDays} 일</a> {commentLeftDays}습니다.
           </CS.CommonSubTitleLong>
         </CS.CommonTextContainer>
         <S.CalendarContainer>
