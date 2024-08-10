@@ -51,15 +51,15 @@ function Account() {
                   <Modal
                     btnTitle="계좌번호"
                     bank="신한은행"
-                    account="110-178-858494"
+                    account="000-000-000000"
                     name="김채윤"
-                    copyString="110178858494"
+                    copyString="000000000000"
                   ></Modal>
                 </td>
                 <td>
                   <CS.ImageContainer width="50px">
                     <a
-                      href="https://qr.kakaopay.com/Ej8yekM9S"
+                      href=""
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -88,15 +88,15 @@ function Account() {
                   <Modal
                     btnTitle="계좌번호"
                     bank="우리은행"
-                    account="422-07-013808"
+                    account="000-00-000000"
                     name="위희량"
-                    copyString="42207013808"
+                    copyString="00000000000"
                   ></Modal>
                 </td>
                 <td>
                   <CS.ImageContainer width="50px">
                     <a
-                      href="https://qr.kakaopay.com/FTgdJiU7E"
+                      href=""
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -111,15 +111,15 @@ function Account() {
                   <Modal
                     btnTitle="계좌번호"
                     bank="신한은행"
-                    account="110-217-987197"
+                    account="000-000-000000"
                     name="김태우"
-                    copyString="110217987197"
+                    copyString="000000000000"
                   ></Modal>
                 </td>
                 <td>
                   <CS.ImageContainer width="50px">
                     <a
-                      href="https://qr.kakaopay.com/FO9IQo2Xf"
+                      href=""
                       target="_blank"
                       rel="noopener noreferrer"
                     >
